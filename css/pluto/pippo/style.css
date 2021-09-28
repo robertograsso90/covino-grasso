@@ -1,0 +1,12 @@
+#Roma {
+	background-color:orange; 
+	color:black; 
+	padding:20px;
+	border:2px dotted black;
+}
+#vision {
+	width:200px;
+	heigth:100px;
+	text-align:center;
+	border: 2px solid black;
+}
