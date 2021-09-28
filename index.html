@@ -2,28 +2,78 @@
 <html lang="en">
 
 	<head>
-		<title>Green Farm</title>
 		<meta charset="utf-8"> 
+		<title>Green Farm</title>
+		<meta name="keywords" content="horse, b&b, holidays, relax">
+		<meta name="description" content="Website of a farmhouse">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="refresh" content="30">
 		<style>
-		
 			header {
-  		  	background-color: yellow;
-  		  	padding: 30px;
-  		  	text-align: center;
- 		  	color: red;
+  		  		background-color: yellow;
+				border: 15px solid yellow;
+ 		  		color: red;
 			}
 
-			section.booking4night {
-  		 	padding: 20px;
-  		  	width: 70%;
-                 	background-color: green;
+			h1, h2 {
+				text-align: center;
 			}
+
+			#ma_tu_no_al_centro {
+				text-align: center;
+			}
+		
+			#id_ha_priorità {
+  				width: 30%;
+ 				float: right;
+  				font-style: italic;
+  				background-color: lightblue;
+			}
+
+			/*.booking4night {
+				text-align: center;
+			}*/
+
+			article {
+				margin: auto;
+				height: 475px;
+				width: 713px;
+				background-image: url('images/Teora-fontana-piano_.jpg'); 
+				background-repeat: no-repeat; 
+				background-size: cover;"
+			}
+
 			footer {
-  		  	background-color: brown;
-  		  	padding: 50px;
-  		  	text-align: center;
- 		  	color: white;
+  		  		background-color: brown;
+  		  		padding: 50px 1px 10px 1px;
+				font-size:13px;
+  		  		text-align: center;
+ 		  		color: white;
+				line-height:5px;
+			}
+
+			.center{
+				margin: auto;
+			}
+
+			#table {
+				width: 50%;
+			}
+
+			#table thead{
+				border: 2px solid black;
+				padding: 8px;
+				background-color:orange;
+			}
+
+			#table tbody{
+				border: 1px solid black;
+				padding: 8px;
+				background-color:#ddd;
+			}
+
+			#Teora_Story p, #Teora_Story h1 {
+				padding: 30px 50px 0px 50px;
 			}
 		</style>
 
@@ -34,24 +84,33 @@
 		</header>
 		<br>
 		<br>
+		<div class="center">
+			<span>Click on the image for more information!</span>
+			<br>
+			<a href="https://it.wikipedia.org/wiki/Equus_ferus_caballus" target=_"blank"><img src="images/cavallo.png" alt="cavallo al galoppo"></a>
+		</div>
 		<br>
-		<span>Click on the image for more information!</span>
-		<a href="https://it.wikipedia.org/wiki/Equus_ferus_caballus" target=_"blank"><img src="images/cavallo.png" alt="cavallo al galoppo"></a>
 		<br>
-		<br>
-		<form action="non_lo_so_proprio" >
-			<h1>Login to start booking a tour!</h1>
+		<form action="non_lo_so_proprio" class="booking4night">
+			<h1 id="ma_tu_no_al_centro">Login to start booking a tour!</h1>
+ 			<aside id="id_ha_priorità">
+				<nav>
+    					<ul>
+      						<li><a href="#header">Go Up!</a></li>
+      						<li><a href="#Teora_Story">Teora Hystory</a></li>
+      						<li><a href="#footer">Contact</a></li>
+    					</ul>
+  				</nav>
+			</aside>
         		<label for="username">Username:</label>
   			<input type="text" name="username" id="username" value="John">
         		<br>
         		<label for="user-pw">Password:</label>
 			<input type="password" name="user-pw" id="user-pw">
-			<hr>
-			<input type="submit">
-		<br>
-		<br>
-		<br>
-        		<section class="booking4night">
+			<br>
+			<br>
+			<br>
+        		<section>
           			<span>Would you like to book for night?</span>
          		 	<br>
           			<input id="yes" type="radio" name="night" value="yes">
@@ -59,51 +118,50 @@
           			<input id="no" type="radio" name="night" value="no">
           			<label for="no">No</label>
         		</section>
-		<br>
-		<br>
+			<br>
+			<br>
+			<input type="submit">
       		</form>
-		<table border>
-			<thead>
-				<tr>
-					<td>Position</td>
-        				<td>Activities</td>
-        				<td>Food</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td rowspan="2">Teora (AV)</td>
-        				<td>ride a horse</td>
-        				<td>Pizza</td>
-				</tr>
-				<tr>
-					<td>rafting</td>
-        				<td>Coffee</td>
-				</tr>
-			</tbody>
-		</table>
-		<section>
- 			<nav>
-    				<ul>
-      					<li><a href="#header">Go Up!</a></li>
-      					<li><a href="#Teora_Story">Teora Hystory</a></li>
-      					<li><a href="#footer">Contact</a></li>
-    				</ul>
-  			</nav>
-  
+		<br>
+		<br>
+		<br>
+		<div>
+			<h2>Cosa puoi trovare...</h2>
+			<table class="center" id="table">
+				<thead>
+					<tr>
+						<td>Position</td>
+        					<td>Activities</td>
+        					<td>Food</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="2">Teora (AV)</td>
+        					<td>ride a horse</td>
+        					<td>Pizza</td>
+					</tr>
+					<tr>
+						<td>rafting</td>
+        					<td>Coffee</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<br>
   			<article id="Teora_Story">
     				<h1>Teora</h1>
-    				<p>Il borgo di Teora ebbe origine come centro agricolo, pastorale e militare. In epoca romana vi morì il tribuno della plebe Milone durante la guerra civile tra Cesare e Pompeo. In un privilegio del 1200, concesso dal papa Innocenzo III a Pantaleone, arcivescovo di Conza, è riferita una località che nel nome sembra avvicinarsi a Teora, ovvero Tugurium Biarium. In realtà, tale paese, che nel 1464 risultava già disabitato (Teora era invece esistente), indica l'attuale zona rurale di Boiara, una località sita nell'attuale comune di Caposele dove ancora oggi si vedono, accanto alla chiesa di San Vito, i ruderi del castello. Durante il feudalesimo, esattamente nel 1322, era signore di Teora un tal Filippo; in seguito (1376) il suo feudo venne comprato dal conte Giacomo Arcuccio e successivamente passò ai Gesualdo. Dal 1676 Teora appartenne ai principi Mirelli sino all'abolizione della feudalità (1806).</p>
-    				<p>Il paese fu colpito dal terremoto del 1694 e dal sisma del 1732. Notevoli danni furono causati anche dal terremoto dell'Irpinia del 1980, a seguito del quale il paese ha ricevuto nel 2005 la medaglia d'oro al merito civile.</p>
+    				<p><strong>Il borgo di Teora ebbe origine come centro agricolo, pastorale e militare. In epoca romana vi morì il tribuno della plebe Milone durante la guerra civile tra Cesare e Pompeo. In un privilegio del 1200, concesso dal papa Innocenzo III a Pantaleone, arcivescovo di Conza, è riferita una località che nel nome sembra avvicinarsi a Teora, ovvero Tugurium Biarium. In realtà, tale paese, che nel 1464 risultava già disabitato (Teora era invece esistente), indica l'attuale zona rurale di Boiara, una località sita nell'attuale comune di Caposele dove ancora oggi si vedono, accanto alla chiesa di San Vito, i ruderi del castello. Durante il feudalesimo, esattamente nel 1322, era signore di Teora un tal Filippo; in seguito (1376) il suo feudo venne comprato dal conte Giacomo Arcuccio e successivamente passò ai Gesualdo. Dal 1676 Teora appartenne ai principi Mirelli sino all'abolizione della feudalità (1806).</strong></p>
+    				<p><strong>Il paese fu colpito dal terremoto del 1694 e dal sisma del 1732. Notevoli danni furono causati anche dal terremoto dell'Irpinia del 1980, a seguito del quale il paese ha ricevuto nel 2005 la medaglia d'oro al merito civile.</strong></p>
   			</article>
-		</section>
-
+		</div>									
+		<br>
+		<br>
 		<footer id="footer">
 			<p>For more information</p>
 			<p>contact us to </p>
   			<p>+39 123 4567890</p>
-			<br>
-			<p>green.farm@gmail.it</p>
+			<p><a href="mailto:green.farm@gmail.com" style="color:white;">green.farm@gmail.com</a></p>
 		</footer>
 	</body>
 </html>
