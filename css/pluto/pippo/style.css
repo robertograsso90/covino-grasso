@@ -1,4 +1,5 @@
-#Roma {
+#Roma 	{
+	top:100px;
 	background-color:orange; 
 	color:black; 
 	padding:20px;
@@ -10,3 +11,57 @@
 	text-align:center;
 	border: 2px solid black;
 }
+
+p	{
+	text-align:center;
+	color:blue;
+	font-size:16px;
+	margin-left:200px;
+	margin-right:200px;
+}
+
+table	{
+	background-color:orange;
+	width:150px;
+	height:100px;
+	text-align:center;
+	float:center;
+}
+
+.information	{
+	padding:25px;
+	padding-top:10px;
+	margin:100px 450px;
+	align:center;
+	border:2px dotted black;
+	border-radius: 20px;
+}
+	
+tr,td	{
+	border: 1px solid gray;
+}
+
+form	{
+	margin:75px 450px;
+	border:2px solid;
+	padding:25px;
+}
+
+header	{
+	margin-down:75px;
+	background-color:darkblue;
+	
+}
+
+#scelta_restaurant {
+	width:45%;
+	float:left;
+}	
+
+#scelta_hotel {
+	width:45%;
+	float:right;
+	
+}
+		
+		
