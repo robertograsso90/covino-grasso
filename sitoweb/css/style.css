@@ -1,0 +1,20 @@
+body{
+     background-color:rgba(192,192,192,0.3)
+}
+
+h1 {
+    color:red;
+    text-align:center;
+    font-size:50px;
+    	   
+}
+
+.imageOfAriano {
+    display:block;
+      margin:0px auto;
+      text-align:center;
+    	
+}
+.imageOfCastle {
+    
+}
