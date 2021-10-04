@@ -151,3 +151,11 @@ footer a:hover{
 	padding: 0.7%;
 }
 
+.features {
+	text-align:center;
+	background-color:orange;
+	width: 50%;
+	float:right;
+	font-family:Helvetica;
+	margin:0px 0px; 
+}
