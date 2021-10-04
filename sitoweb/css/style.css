@@ -6,21 +6,18 @@ h1 {
     color:red;
     text-align:center;
     font-size:50px;
-    	   
 }
 
 .imageOfAriano {
     display:block;
     margin:0px auto;
     text-align:center;
-    	
 }
-.imageOfCastle {
-    
-}
+
 .hero{
 	position: relative;
 }
+
 .pageTitle{
 	position: absolute;
 	top:15%;
@@ -31,8 +28,45 @@ h1 {
 	word-spacing: 10px;
 	text-align: center;
 }
-img{
-	width: 100%;
+
+
+#heroImg {
+	  width: 100%;
 	margin:1%;
 	opacity:0.5;
 }
+
+.fragment{
+	 margin-top:50px;
+}
+
+.theMunicipalVilla, .theCathedral, .theBiogem {
+	width:67%;
+	Float:right;
+	Text-align:justify;
+	padding: 15px;		 
+}
+
+#theMunicipalVilla, #theCathedral, #theBiogem {
+	width:30%;
+	padding-top:40px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
