@@ -147,7 +147,7 @@ footer{
 	text-shadow: 0.5px 0.5px 2px black;
 }
 
-footer a[target="_blank"]{
+footer a[target="_blank"], footer a[onclick*="_blank"]{
 	text-decoration:none;
 	color:white;
 	word-spacing: 7px;
@@ -155,7 +155,7 @@ footer a[target="_blank"]{
 	font-weight: bold;
 	line-height:40px;
 }
-footer a[target="_blank"]:hover{
+footer a[target="_blank"]:hover, footer a[onclick*="_blank"]:hover{
 	text-shadow:1px 1px 5px rgb(0,0,255);
 }
 .newsletterAs{
@@ -175,6 +175,7 @@ address{
 address a{
 	color: white;
 }
+
 .features {
 	text-align:center;
 	width: 50%;
