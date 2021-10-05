@@ -110,6 +110,7 @@ h1 {
     color:red;
     text-align:center;
     font-size:50px;
+    text-transform: uppercase;
 }
 
 .imageOfAriano {
@@ -232,7 +233,20 @@ address a{
 	width:50%;
 	float:right;
 	overflow:auto;
+	padding: 0 30px 0 0;
+	text-align:justify;
 }
 .sport{
 	margin:50px 0;
+}
+.specialStyle {
+	font-size: 30px;
+	font-family: 'Great Vibes', cursive;
+}
+.mySlides{
+	display:none;
+}
+.fixDim{
+	visibility:hidden;
+	display:block-inline;
 }

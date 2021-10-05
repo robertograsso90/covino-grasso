@@ -1,8 +1,9 @@
 <html>
 	<head>
-		<title>City of Ariano Irpino</title>
+		<title>Hotels</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -29,7 +30,43 @@
 			<img class="headerImg" src="images/stemma-ariano-irpino.jpg">
 		</header>
 		<main>
-		
+			<h1>HOTEL</h1>
+			<div class="sport">
+				<section class="features1">
+					<h3>VILLA SORRISO HOTEL</h3>
+					<p>A classic and at the same time elegant construction in its sobriety, with a large well-kept outdoor area. The multilingual pre-professional staff guarantees maximum hospitality and impeccable service. The refinement, warmth and personal taste of those who manage Villa Sorriso make it a unique hotel-restaurant.</p>
+					<br>
+					<span class="specialStyle">Hospitality and relaxation in the heart of the green Irpinia</span>
+					<br><br><br>
+					<span><strong>Strada Statale 90 delle Puglie Km 18 83031 Ariano Irpino (AV)</strong></span>			
+				</section>
+				<img src="images/villa-sorriso-1.jpg" width="500" class="mySlides">
+				<img src="images/villa-sorriso-2.jpg" width="500" class="mySlides">
+				<img src="images/villa-sorriso-3.jpg" width="500" class="mySlides">
+				<img src="images/villa-sorriso-4.jpg" width="500" class="mySlides">
+			</div>
+			<div class="sport">
+				<section class="features1">
+					<h3>VILLA KRISTALL</h3>
+					<p>A The refinement of the elegant interiors, with the characteristic rooms for ceremonies and events, meets excellent catering, which enhances the typicality of native products with the mastery of the gastronomic art. The creativity of a specialized staff at your service will help make you live an unforgettable experience.</p>
+					<br>
+					<span class="specialStyle">I Giardini dell’Eden</span>
+					<br><br><br>
+					<span><strong>Via Serra, 9 83031 Ariano Irpino (AV)</strong></span>			
+				</section>
+				<iframe width="500" height="300" src="https://villakristall.it/i-giardini-delleden"></iframe>
+			</div>
+			<div class="sport">
+				<iframe width="500" height="300" src="https://www.youtube.com/embed/k6t5R-XIqrY" allowfullscreen></iframe>
+				<section class="features1">
+					<h3>GRAND HOTEL BIFFY</h3>
+					<p>Let yourself be conquered by style and envelop yourself in relaxation: whether it is the best day ever or it is an unforgettable moment, our structure awaits you with open arms to give you a unique experience. Get ready to spend a day dedicated to elegance and well-being, thanks to our staff and the quality services offered.</p>			
+					<br>
+					<span class="specialStyle">Comfort Elegance and contemporary taste</span>
+					<br><br><br>
+					<span><strong> Via Cardito / Torana SNC - 83031 Ariano Irpino (AV)</strong></span>	
+				</section>
+			</div>
 		</main>
 		<footer>
 			<aside class="newsletterAs">
@@ -52,3 +89,20 @@
 		</footer>
 	</body>	
 </html>
+	
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
