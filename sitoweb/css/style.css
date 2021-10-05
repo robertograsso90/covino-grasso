@@ -228,3 +228,11 @@ address a{
 	text-align:center;
 	margin: 2% 45%;
 }
+.features1{
+	width:50%;
+	float:right;
+	overflow:auto;
+}
+.sport{
+	margin:50px 0;
+}
