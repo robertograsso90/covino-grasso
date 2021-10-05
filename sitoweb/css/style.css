@@ -143,9 +143,10 @@ footer{
 	font-size: 17px;
 	margin:5% 1% 0 1%;
 	border-top: 2px solid #F8F8FF;
+	text-shadow: 0.5px 0.5px 2px black;
 }
 
-footer a{
+footer a[target="_blank"]{
 	text-decoration:none;
 	color:white;
 	word-spacing: 7px;
@@ -153,13 +154,26 @@ footer a{
 	font-weight: bold;
 	line-height:40px;
 }
-footer a:hover{
+footer a[target="_blank"]:hover{
 	text-shadow:1px 1px 5px rgb(0,0,255);
-	background-color: white;
-	border: 1px solid black;
-	padding: 0.7%;
 }
-
+.newsletterAs{
+	float: left;
+	width: 26%;
+	margin: 30px;
+}
+.customerAs{
+	float: right;
+	width: 26%;
+	margin: 30px;
+}
+address{
+	width:40%;
+	margin:auto;
+}
+address a{
+	color: white;
+}
 .features {
 	text-align:center;
 	width: 50%;
