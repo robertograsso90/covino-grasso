@@ -2,9 +2,9 @@
 	<head><title>CUSTUMER CARE</title>
 		<link href="css/style.css" rel="stylesheet">
 	</head>
-	<body>
-		<h1>CUSTUMER CARE</h1>
-		<section>
+	<body class="totale">
+		<h1 class="inizio">CUSTUMER CARE</h1>
+		<section class="compilation">
 			<h3>Your Data</h3>
 			<form> 
 				<input type="text" name="name" placeholder="name" style="font-style:italic" maxlenght="80" size="20" >
@@ -14,7 +14,7 @@
 				<input type="button" value="save">
 			</form>	
 		</section>
-		<section>
+		<section class="compilation">
 			<select name="Type" style="font-style:italic">
 				<option>Type of report</option>
 				<option value="Information">Information</option>
@@ -31,11 +31,13 @@
 				<option value="Hotels">Hotels</option>
 				<option value="Cathedral">Cathedral</option>
 			</select>
-			<textarea name="description" placeholder="Text message" maxlenght="500"></textarea>
+			<br>
+			<br>
+			<textarea name="description" placeholder="Text message" maxlenght="500" rows="5" cols="75"></textarea>
 		</section>
-		<div>
+		<div class="compilation2" >
 			<p>Customer service privacy</p>
-			<span>Information document Article 13 EU Reg. 2016 / 679- GDPR - Information on the processing of personal data collected from the data subject 
+			<span class="privacy">Information document Article 13 EU Reg. 2016 / 679- GDPR - Information on the processing of personal data collected from the data subject 
 				<br> In compliance with the provisions of EU Reg. 2016/679 (European Regulation for the protection of personal data) we provide the necessary information regarding the processing of the personal data provided. This is an information that is provided pursuant to art. 13 of EU Reg. 2016/679 (European Regulation for the protection of personal data) 
 				<br> Processable personal data: "personal data": any information concerning an identified or identifiable natural person ("interested party"). The natural person is considered identifiable who can be identified, directly or indirectly, with particular reference to an identifier such as the name, an identification number, location data, an online identifier or one or more characteristic elements of his physical identity, physiological, genetic, psychic, economic, cultural or social; (C26, C27, C30) 
 				<br> 1. DATA CONTROLLER, pursuant to art. 4 and 24 of EU Reg. 2016/679 is Bennet Spa - with registered office in Milan (MI) 20129 - Via Carlo Goldoni nr. 11, in the person of the pro-tempore legal representative 
@@ -53,12 +55,12 @@
 				<br> 7. RIGHTS OF THE INTERESTED PARTIES <br> You can assert your rights as expressed by the EU Regulation 2016/679, by contacting the Data Controller, by sending an e-mail to privacy@bennet.com or by writing to the DPO / DPO at the e-mail address contact above. In particular, these rights include: the right to obtain confirmation that your personal data is being processed or not, and if so, the right to obtain access to such data and other information, such as: the type of personal data, the recipients or categories of recipients of the data, the data retention period or the criteria used to determine it, the right to request rectification, cancellation, limitation of the processing of personal data, the right to object to the processing of data, the right to lodge a complaint with the supervisory authority, if the data are not collected from the data subject all information on their origin, the existence of an automated decision-making process (including profiling pursuant to art. 22 GDPR), 
 					the necessary guarantees in case of data transfer to a third country or an international organization ex. articles 44 and ss. GDPR, the right to obtain a copy of the personal data being processed.<br></span>
                
-                	<section>
+                	<section class="compilation3">
                     		<p>Pursuant to and for the purposes of articles 7.13 and 15 of EU Regulation 2016/679, I declare that I have read the privacy policy on the processing of personal data of Bennet Spa. We remind you that by not authorizing the processing of your data, we will not be able to reply to your message.</p>
                     		<input type="checkbox" name="accept" required="">
                     		<label for="privacyBox">Acknowledgment</label>
                 	</section>
-                	<input type="submit" value="Send report">
+                	<input class="bordo" type="submit" value="Send report">
             	</div>		
 	</body>	
 </html>

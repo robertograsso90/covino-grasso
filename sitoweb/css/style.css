@@ -187,3 +187,44 @@ address a{
 	padding:45px;
 	overflow:auto;
 }	
+.inizio{
+	margin:20px;
+	font-size:50;
+	color:black;
+}
+.totale{
+	background-color:white;
+}
+.compilation{
+	border-radius:20px;
+	border: 2px solid;
+	margin:20px;
+	padding:30px;
+	background-color:orange;
+}
+.compilation2 {
+	background-color:#7fffd4;
+	font-family:Helvetica;
+	font-weight:bold;
+	border-radius:20px;
+	border: 2px solid;
+	margin:20px;
+}
+
+.compilation3 { 
+	background-color:#7fffd4;
+	font-family:Helvetica;
+	font-weight:bold;
+	border-radius:20px;
+	margin:20px;
+}
+.privacy{
+	height:200px;
+	width:700px;
+	display:block;
+	overflow:scroll;
+}
+.bordo{
+	text-align:center;
+	margin: 2% 45%;
+}
