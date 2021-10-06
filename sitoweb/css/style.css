@@ -112,13 +112,24 @@ h1 {
     font-size:50px;
     text-transform: uppercase;
 }
-
-.imageOfAriano {
-    display:block;
-    margin:0px auto;
-    text-align:center;
+.firstPageContent{
+	margin:10px 0;
+}
+.infoSec{
+	margin:35px 0;
+	background:#d49445;
+	width: 20%;
+	font-size: 13px;
+	text-align:justify;
+	padding: 10px 30px 40px 30px;
+ 	border-radius:10px;
+	float:left;
 }
 
+.meteoOfAriano {
+    	display:block;
+	text-align:right;
+}
 .fragment{
 	 margin:7% 0 ;
 	 overflow:auto;
@@ -243,11 +254,4 @@ address a{
 .specialStyle {
 	font-size: 30px;
 	font-family: 'Great Vibes', cursive;
-}
-.mySlides{
-	display:none;
-}
-.fixDim{
-	visibility:hidden;
-	display:block-inline;
 }
