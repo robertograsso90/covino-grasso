@@ -128,7 +128,8 @@ h1 {
 
 .meteoOfAriano {
     	display:block;
-	text-align:right;
+	float:right;
+	
 }
 .fragment{
 	 margin:7% 0 ;
@@ -254,4 +255,13 @@ address a{
 .specialStyle {
 	font-size: 30px;
 	font-family: 'Great Vibes', cursive;
+}
+.folk{
+	display:block;
+	margin:auto;
+	text-align:center;
+}
+.folks{
+	text-align:justify;
+	margin:0 20px;
 }
