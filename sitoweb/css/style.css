@@ -102,7 +102,7 @@ header{
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 .heroImg{
-	width: 98%;
+	width: 100%;
 	opacity:0.5;
 }
 main{
@@ -304,7 +304,7 @@ textarea{
 }
 
 .headerImg{
-	width:30px;
+	display:hidden;
 }
 .heroTitle{
 	font-size: 12px;
@@ -391,17 +391,17 @@ footer a[target="_blank"]:hover, footer a[onclick*="_blank"]:hover{
 	text-shadow:1px 1px 5px rgb(0,0,255);
 }
 .newsletterAs{
-	float: left;
-	width: 26%;
+	float: none;
+	width: 80%;
 	margin: 30px;
 }
 .customerAs{
-	float: right;
-	width: 26%;
+	float: none;
+	width: 80%;
 	margin: 30px;
 }
 address{
-	width:40%;
+	width:80%;
 	margin:auto;
 }
 .features {
@@ -411,14 +411,6 @@ address{
 .fragments{
 	padding:25px;
 }	
-.inizio{
-	margin:20px;
-	font-size:50;
-	color:black;
-}
-.totale{
-	background-color:white;
-}
 .compilation{
 	border-radius:20px;
 	border: 2px solid;
@@ -466,8 +458,7 @@ address{
 	width:392px;
 }
 .specialStyle {
-	font-size: 30px;
-	font-family: 'Great Vibes', cursive;
+	font-size: 15px;
 }
 
 textarea{
