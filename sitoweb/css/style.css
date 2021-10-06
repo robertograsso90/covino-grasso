@@ -216,6 +216,10 @@ address a{
 	margin:50px 20px;
 	padding:45px;
 	overflow:auto;
+
+}
+.fragments img{
+	width:500;
 }	
 .inizio{
 	margin:20px;
@@ -267,10 +271,17 @@ address a{
 }
 .sport{
 	margin:50px 0;
+
+}
+.sport img {
+	width:500;
 }
 .specialStyle {
 	font-size: 30px;
 	font-family: 'Great Vibes', cursive;
+}
+textarea{
+	cols:75;
 }
 @media screen and (max-width: 480px) {
   	
@@ -342,16 +353,19 @@ h1 {
 	 overflow:auto;
 }
 
+.fragments img{
+	width:300;
+}
 .theMunicipalVilla, .theCathedral, .theBiogem {
-	width:60%;
-	Float:right;
-	Text-align:justify;
-	padding: 30px;			 
+	width: 90%;
+    	Float: none;
+    	Text-align: justify;
+    	padding: 17px;			 
 }
 
 .theVillas, .theCathedrals, .theBiogems {
-	width:30%;
-	padding-top:40px;	
+	width: 100%;
+    padding-top: 20px;	
 }
 
 footer{
@@ -391,17 +405,11 @@ address{
 	margin:auto;
 }
 .features {
-	text-align:center;
-	width: 50%;
-	float:right;
-	font-family:Helvetica;
-	 
+	width: 100%;
+	float:none;
 }
 .fragments{
-	background-color:orange;
-	margin:50px 20px;
-	padding:45px;
-	overflow:auto;
+	padding:25px;
 }	
 .inizio{
 	margin:20px;
@@ -435,27 +443,34 @@ address{
 	margin:20px;
 }
 .privacy{
-	height:200px;
-	width:700px;
-	display:block;
-	overflow:scroll;
+	height: 200px;
+    	width: 300px;
+    	display: block;
+    	overflow: scroll;
 }
 .bordo{
 	text-align:center;
 	margin: 2% 45%;
 }
 .features1{
-	width:50%;
-	float:right;
+	width:100%;
+	float:none;
 	overflow:auto;
-	padding: 0 30px 0 0;
+	padding:0px;
 	text-align:justify;
 }
 .sport{
 	margin:50px 0;
 }
+.sport img {
+	width:392px;
+}
 .specialStyle {
 	font-size: 30px;
 	font-family: 'Great Vibes', cursive;
+}
+
+textarea{
+	cols:45;
 }
 }
