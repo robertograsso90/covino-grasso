@@ -134,7 +134,18 @@ h1 {
 .meteoOfAriano {
     	display:block;
 	float:right;
-	
+}
+.meteoOfAriano iframe{
+	width:400;
+	height:300;
+}
+.folk{
+	display:block;
+	margin:auto;
+	text-align:center;
+}
+.folk img{ 
+	width:400;
 }
 .fragment{
 	 margin:7% 0 ;
@@ -260,11 +271,6 @@ address a{
 .specialStyle {
 	font-size: 30px;
 	font-family: 'Great Vibes', cursive;
-}
-.folk{
-	display:block;
-	margin:auto;
-	text-align:center;
 }
 @media screen and (max-width: 480px) {
   	
@@ -311,14 +317,25 @@ h1 {
 	font-size: 9px;
 	padding: 10px;
 	text-align:left;
+	margin: 10px 0;
 }
 .infoSec img{
 	width:88px;
 }
-.meteoOfAriano {
-    	display:block;
-	float:right;
-	
+.meteoOfAriano{
+	margin:30px auto;
+}
+.meteoOfAriano iframe{
+	width:250;
+	height:200;
+}
+.folk{
+	display:block;
+	margin:auto;
+	text-align:center;
+}
+.folk img{ 
+	width:400;
 }
 .fragment{
 	 margin:7% 0 ;
@@ -373,10 +390,6 @@ address{
 	width:40%;
 	margin:auto;
 }
-address a{
-	color: white;
-}
-
 .features {
 	text-align:center;
 	width: 50%;
@@ -444,10 +457,5 @@ address a{
 .specialStyle {
 	font-size: 30px;
 	font-family: 'Great Vibes', cursive;
-}
-.folk{
-	display:block;
-	margin:auto;
-	text-align:center;
 }
 }
