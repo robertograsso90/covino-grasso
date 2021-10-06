@@ -40,6 +40,9 @@ header{
 .headerList li li a { 
 	padding:10px 2px 3px 10px; 
 }
+.homeImage img{
+	width:40px;
+}
 .whiteHomeImage{
 	display:none;
 }
@@ -125,7 +128,9 @@ h1 {
  	border-radius:10px;
 	float:left;
 }
-
+.infoSec img{
+	width:250px;
+}
 .meteoOfAriano {
     	display:block;
 	float:right;
@@ -261,7 +266,188 @@ address a{
 	margin:auto;
 	text-align:center;
 }
-.folks{
+@media screen and (max-width: 480px) {
+  	
+.homeImage img{
+	width:15px;
+}
+.headerList li, .headerList a {
+	font-size: 8px;
+	display: inline-block;
+	margin-right:20px;
+}
+.headerList li:hover ul{
+	width:75px;
+}
+.headerList li li { 
+	 width:100px; 
+}
+.headerList li li a { 
+	padding:10px 2px 3px 10px; 
+}
+
+.headerImg{
+	width:30px;
+}
+.heroTitle{
+	font-size: 12px;
+	word-spacing: 4px;
+}
+.heroLink{
+	font-size: 7px;
+	word-spacing: 3px;
+}
+.heroLink:hover{
+	font-size: 7px;
+	word-spacing: 3px;
+}
+h1 {
+    font-size:20px;
+}
+.firstPageContent{
+	margin:10px 0;
+}
+.infoSec{
+	font-size: 9px;
+	padding: 10px;
+	text-align:left;
+}
+.infoSec img{
+	width:88px;
+}
+.meteoOfAriano {
+    	display:block;
+	float:right;
+	
+}
+.fragment{
+	 margin:7% 0 ;
+	 overflow:auto;
+}
+
+.theMunicipalVilla, .theCathedral, .theBiogem {
+	width:60%;
+	Float:right;
+	Text-align:justify;
+	padding: 30px;			 
+}
+
+.theVillas, .theCathedrals, .theBiogems {
+	width:30%;
+	padding-top:40px;	
+}
+
+footer{
+	padding: 5% 0 2% 0;
+	background-color: #7FFFD4;
+	color:white;
+	text-align: center;
+	font-size: 17px;
+	margin:5% 1% 0 1%;
+	border-top: 2px solid #F8F8FF;
+	text-shadow: 0.5px 0.5px 2px black;
+}
+
+footer a[target="_blank"], footer a[onclick*="_blank"]{
+	text-decoration:none;
+	color:white;
+	word-spacing: 7px;
+	font-family:helvetica, "sans serif";
+	font-weight: bold;
+	line-height:40px;
+}
+footer a[target="_blank"]:hover, footer a[onclick*="_blank"]:hover{
+	text-shadow:1px 1px 5px rgb(0,0,255);
+}
+.newsletterAs{
+	float: left;
+	width: 26%;
+	margin: 30px;
+}
+.customerAs{
+	float: right;
+	width: 26%;
+	margin: 30px;
+}
+address{
+	width:40%;
+	margin:auto;
+}
+address a{
+	color: white;
+}
+
+.features {
+	text-align:center;
+	width: 50%;
+	float:right;
+	font-family:Helvetica;
+	 
+}
+.fragments{
+	background-color:orange;
+	margin:50px 20px;
+	padding:45px;
+	overflow:auto;
+}	
+.inizio{
+	margin:20px;
+	font-size:50;
+	color:black;
+}
+.totale{
+	background-color:white;
+}
+.compilation{
+	border-radius:20px;
+	border: 2px solid;
+	margin:20px;
+	padding:30px;
+	background-color:orange;
+}
+.compilation2 {
+	background-color:#7fffd4;
+	font-family:Helvetica;
+	font-weight:bold;
+	border-radius:20px;
+	border: 2px solid;
+	margin:20px;
+}
+
+.compilation3 { 
+	background-color:#7fffd4;
+	font-family:Helvetica;
+	font-weight:bold;
+	border-radius:20px;
+	margin:20px;
+}
+.privacy{
+	height:200px;
+	width:700px;
+	display:block;
+	overflow:scroll;
+}
+.bordo{
+	text-align:center;
+	margin: 2% 45%;
+}
+.features1{
+	width:50%;
+	float:right;
+	overflow:auto;
+	padding: 0 30px 0 0;
 	text-align:justify;
-	margin:0 20px;
+}
+.sport{
+	margin:50px 0;
+}
+.specialStyle {
+	font-size: 30px;
+	font-family: 'Great Vibes', cursive;
+}
+.folk{
+	display:block;
+	margin:auto;
+	text-align:center;
+}
 }
