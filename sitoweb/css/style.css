@@ -285,6 +285,304 @@ address a{
 	font-family: 'Great Vibes', cursive;
 }
 
+@media ( min-width:1025px) and ( max-width: 1440px) {
+			
+	.headerList li, .headerList a {
+		color: black;
+		text-decoration: none;
+		text-transform:uppercase;
+		font-family:helvetica;
+		font-size: 17px;
+		font-weight: bold;
+		display: inline-block;
+		margin-right: 15%;
+	}
+	.headerList a:hover {
+		color: white;
+	}
+	.headerList li ul{
+		display: none
+	}
+	.headerList li:hover ul{
+		display: block;
+		position: absolute;
+		z-index:1;
+		width:150px;
+		background-color: #7FFFD4;
+	}
+	.headerList li li { 
+		border:none; width:150px; 
+	}
+	.headerList li li a { 
+		padding:10px 2px 3px 10px; 
+	}
+	.homeImage img{
+		width:40px;
+	}
+	.whiteHomeImage{
+		display:none;
+	}
+	.homeImage:hover img[class="blueHomeImage"]{
+		display:none;
+	}
+	.homeImage:hover img[class="whiteHomeImage"]{
+		display:block;
+	}
+	.headerImg{
+		width:100px;
+		border: 1px solid rgb(0,0,205);
+		position: absolute;
+		top:1.47%;
+		right:1.7%;
+		z-index:1;
+	}
+	.hero{
+		position: relative;
+	}
+	.heroTitle{
+		position: absolute;
+		top:15%;
+		left: 30%;
+		color: white;
+		text-shadow: 2px 2px 4px #000000;
+		font-size: 35px;
+		font-family:helvetica;
+		word-spacing: 10px;
+		text-align: center;
+	}
+	.heroLink{
+		color:black;
+		text-shadow: 1px 1px 4px #000000;
+		font-family:helvetica;
+		font-size: 20px;
+		word-spacing: 10px;
+		text-align: center;
+		text-decoration:none;
+		background-color: #7FFFD4;
+		padding: 3% 7%;
+		border: 1px solid black;
+		box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+	}
+	.heroLink:hover{
+		color: #7FFFD4;
+		text-shadow: 0px 0px 5px black;
+		font-family:helvetica;
+		font-weight: bold;
+		font-size: 20px;
+		word-spacing: 10px;
+		text-align: center;
+		text-decoration:none;
+		background-color: white;
+		padding: 3% 7%;
+		border: 2px solid #7FFFD4;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	}
+	.heroImg{
+		height: 450px;
+		opacity:0.5;
+	}
+	main{
+		margin:0 1%;
+
+	}
+	h1 {
+		color:red;
+		text-align:center;
+		font-size:50px;
+		text-transform: uppercase;
+	}
+	.firstPageContent{
+		margin:10px 0;
+	}
+	.infoSec{
+		margin:35px 1%;
+		background:#d49445;
+		width: 20%;
+		font-size: 19px;
+		text-align:justify;
+		padding: 10px 30px 20px 30px;
+		border-radius:10px;
+		float:left;
+	}
+	.infoSec img{
+		width:90%;
+	}
+	.meteoOfAriano {
+		display:block;
+		float:right;
+		margin:3% 1% 2% 1%;
+	}
+	.meteoOfAriano iframe{
+		width:110%;
+		height:400;
+	}
+	.folk{
+		display:block;
+		margin:auto;
+		text-align:center;
+		font-size: 23px;
+		width: 70%;
+	}
+	.folk img{ 
+		width:50%;
+		display:block;
+		margin:7% auto;
+	}
+	.folk p {
+		padding: 0 6%;
+		margin:0 10%;
+	}
+	.fragment{
+		 margin:7% 0 ;
+		 overflow:auto;
+	}
+
+	.theMunicipalVilla, .theCathedral, .theBiogem {
+		width:80%;
+		Float:none;
+		Text-align:justify;
+		margin:auto;
+		padding: 30px;
+		font-size: 23px;		
+	}
+
+	.theVillas, .theCathedrals, .theBiogems {
+		width:80%;
+		padding-top:40px;	
+		display:block;
+		margin:auto;
+	}
+
+	footer{
+		padding: 5% 0 2% 0;
+		background-color: #7FFFD4;
+		color:white;
+		text-align: center;
+		font-size: 17px;
+		margin:5% 1% 0 1%;
+		border-top: 2px solid #F8F8FF;
+		text-shadow: 0.5px 0.5px 2px black;
+	}
+
+	footer a[target="_blank"], footer a[onclick*="_blank"]{
+		text-decoration:none;
+		color:white;
+		word-spacing: 7px;
+		font-family:helvetica, "sans serif";
+		font-weight: bold;
+		line-height:25px;
+	}
+	footer a[target="_blank"]:hover, footer a[onclick*="_blank"]:hover{
+		text-shadow:1px 1px 5px rgb(0,0,255);
+	}
+	.newsletterAs{
+		float: left;
+		width: 26%;
+		margin: 30px;
+	}
+	.customerAs{
+		float: right;
+		width: 26%;
+		margin: 30px;
+	}
+	address{
+		width:40%;
+		margin:auto;
+	}
+	address a{
+		color: white;
+	}
+
+	.features {
+		text-align: center;
+    width: 100%;
+    float: none;
+    display: block;
+    margin: auto;
+    font-family: Helvetica;
+		 
+	}
+	.fragments{
+		background-color:orange;
+		margin:50px 20px;
+		padding:45px;
+		overflow:auto;
+		font-size:23px;
+	}
+	.fragments img{
+		width:80%;
+		display:block;
+		margin:auto;
+	}	
+	.inizio{
+		margin:20px;
+		font-size:50;
+		color:black;
+	}
+	.totale{
+		background-color:white;
+	}
+	.compilation{
+		border-radius:20px;
+		border: 2px solid;
+		margin:20px;
+		padding:30px;
+		background-color:orange;
+	}
+	.compilation2 {
+		background-color:#7fffd4;
+		font-family:Helvetica;
+		font-weight:bold;
+		border-radius:20px;
+		border: 2px solid;
+		margin:20px;
+	}
+
+	.compilation3 { 
+		background-color:#7fffd4;
+		font-family:Helvetica;
+		font-weight:bold;
+		border-radius:20px;
+		margin:20px;
+	}
+	.privacy{
+		height:200px;
+		width:700px;
+		display:block;
+		overflow:scroll;
+	}
+	.bordo{
+		text-align:center;
+		margin: 2% 45%;
+	}
+	.features1{
+		width:100%;
+		float:none;
+		overflow:auto;
+		padding: 0 30px 0 0;
+		text-align:justify;
+		
+	}
+	.sport{
+		margin:0 15% 5% 15%;
+		
+
+	}
+	.sport img {
+		width:75%;
+		display:block;
+		margin:auto;
+	}
+	.sport iframe{
+		width:75%;
+		display:block;
+		margin:auto;
+	}
+	.specialStyle {
+		font-size: 30px;
+		font-family: 'Great Vibes', cursive;
+	}
+}
 @media (min-width:993px) and (max-width: 1024px) {
 
 	.heroImg{
@@ -736,7 +1034,7 @@ address a{
 		font-family: 'Great Vibes', cursive;
 	}
 }
-@media (max-width: 768px) {		
+@media (min-width: 426px) and (max-width: 768px) {		
 	.homeImage img{
 		width:25px;
 	}
@@ -924,6 +1222,213 @@ address a{
 	}
 	.sport img {
 		width:392px;
+	}
+	.specialStyle {
+		font-size: 30px;
+		font-family: 'Great Vibes', cursive;
+	}
+}
+@media (max-width: 425px) {		
+	.homeImage img{
+		width:25px;
+	}
+	.headerList li, .headerList a {
+		font-size: 8px;
+		display: inline-block;
+		margin-right:1%;
+	}
+	.headerList li:hover ul{
+		width:75px;
+	}
+	.headerList li li { 
+		 width:100px; 
+	}
+	.headerList li li a { 
+		padding:10px 2px 3px 10px; 
+	}
+
+	.headerImg{
+		display:none;
+	}
+	.heroTitle{
+		font-size: 12px;
+		word-spacing: 4px;
+		left: 30%;
+	}
+	.heroLink{
+		font-size: 7px;
+		word-spacing: 3px;
+	}
+	.heroImg {
+		height: 150px;
+	}
+	.heroLink:hover{
+		font-size: 7px;
+		word-spacing: 3px;
+	}
+	h1 {
+		font-size:20px;
+	}
+	.firstPageContent{
+		margin:10px 0;
+	}
+	.infoSec{
+		width: 40%;
+		font-size: 7px;
+		padding: 10px;
+		text-align:left;
+		margin: 10px 0;
+	}
+	.infoSec img{
+		width:90%;
+	}
+	.meteoOfAriano{
+		float:right;
+		width:50%;
+		margin:15px auto;
+	}
+	.meteoOfAriano iframe{
+		height:150px;
+		width: 100%;
+	}
+	.folk{
+		display:block;
+		margin:auto;
+		text-align:center;
+	}
+	.folk img {
+		width: 291px;
+	}
+	.fragment{
+		 margin:7% 0 ;
+		 overflow:auto;
+	}
+
+	.fragments img{
+		width:90%;
+		display:block;
+		margin:auto;
+	}
+	.theMunicipalVilla, .theCathedral, .theBiogem {
+		width: 90%;
+			Float: none;
+			Text-align: justify;
+			padding: 17px;			 
+	}
+
+	.theVillas, .theCathedrals, .theBiogems {
+		width: 100%;
+		padding-top: 20px;	
+	}
+
+	footer{
+		padding: 5% 0 2% 0;
+		background-color: #7FFFD4;
+		color:white;
+		text-align: center;
+		font-size: 10px;
+		margin:1% 1% 0 1%;
+		border-top: 2px solid #F8F8FF;
+		text-shadow: 0.5px 0.5px 2px black;
+	}
+
+	footer a[target="_blank"], footer a[onclick*="_blank"]{
+		text-decoration:none;
+		color:white;
+		word-spacing: 7px;
+		font-family:helvetica, "sans serif";
+		font-weight: bold;
+		line-height:40px;
+	}
+	footer a[target="_blank"]:hover, footer a[onclick*="_blank"]:hover{
+		text-shadow:1px 1px 5px rgb(0,0,255);
+	}
+	.newsletterAs{
+		float: none;
+		width: 100%;
+		margin: 30px auto;
+	}
+	.customerAs{
+		float:none;
+		width: 100%;
+		margin: 30px auto;
+	}
+	address{
+		width:100%;
+		margin:auto;
+	}
+	.features {
+		text-align: center;
+		width: 100%;
+		float:none;
+		font-family: Helvetica;
+		margin:auto;
+		font-size: 10px;
+	}
+	.fragments{
+		background-color: orange;
+			margin: 18px 47px;
+			padding: 15px 0px;
+			overflow: auto;
+	}	
+	.inizio{
+		margin:20px;
+		font-size:50;
+		color:black;
+	}
+	.totale{
+		background-color:white;
+	}
+	.compilation{
+		border-radius:20px;
+		border: 2px solid;
+		margin:20px;
+		padding:30px;
+		background-color:orange;
+	}
+	.compilation2 {
+		background-color:#7fffd4;
+		font-family:Helvetica;
+		font-weight:bold;
+		border-radius:20px;
+		border: 2px solid;
+		margin:20px;
+	}
+
+	.compilation3 { 
+		background-color:#7fffd4;
+		font-family:Helvetica;
+		font-weight:bold;
+		border-radius:20px;
+		margin:20px;
+	}
+	.privacy{
+		height: 200px;
+			width: 300px;
+			display: block;
+			overflow: scroll;
+	}
+	.bordo{
+		text-align:center;
+		margin: 2% 45%;
+	}
+	.features1{
+		display:block;
+		float:none;
+		width:98%;
+		overflow:auto;
+		padding:0px;
+		text-align:justify;
+		font-size: 10px;
+		margin: 15% auto;
+	}
+	.sport{
+		margin:2% 0;
+	}
+	.sport img {
+		width:90%;
+		display:block;
+		margin:auto;
 	}
 	.specialStyle {
 		font-size: 30px;
