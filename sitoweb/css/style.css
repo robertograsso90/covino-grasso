@@ -167,7 +167,7 @@ h1 {
 footer{
 	padding: 5% 0 2% 0;
 	background-color: #7FFFD4;
-	color:white;
+	color:black;
 	text-align: center;
 	font-size: 17px;
 	margin:5% 1% 0 1%;
@@ -177,7 +177,7 @@ footer{
 
 footer a[target="_blank"], footer a[onclick*="_blank"]{
 	text-decoration:none;
-	color:white;
+	color:black;
 	word-spacing: 7px;
 	font-family:helvetica, "sans serif";
 	font-weight: bold;
@@ -456,7 +456,7 @@ address a{
 	footer{
 		padding: 5% 0 2% 0;
 		background-color: #7FFFD4;
-		color:white;
+		color:black;
 		text-align: center;
 		font-size: 17px;
 		margin:5% 1% 0 1%;
@@ -466,7 +466,7 @@ address a{
 
 	footer a[target="_blank"], footer a[onclick*="_blank"]{
 		text-decoration:none;
-		color:white;
+		color:black;
 		word-spacing: 7px;
 		font-family:helvetica, "sans serif";
 		font-weight: bold;
@@ -640,7 +640,7 @@ address a{
 	footer{
 		padding: 5% 0 2% 0;
 		background-color: #7FFFD4;
-		color:white;
+		color:black;
 		text-align: center;
 		font-size: 17px;
 		margin:5% 1% 0 1%;
@@ -914,7 +914,7 @@ address a{
 	footer{
 		padding: 5% 0 2% 0;
 		background-color: #7FFFD4;
-		color:white;
+		color:black;
 		text-align: center;
 		font-size: 17px;
 		margin:5% 1% 0 1%;
@@ -924,7 +924,7 @@ address a{
 
 	footer a[target="_blank"], footer a[onclick*="_blank"]{
 		text-decoration:none;
-		color:white;
+		color:black;
 		word-spacing: 7px;
 		font-family:helvetica, "sans serif";
 		font-weight: bold;
@@ -1124,7 +1124,7 @@ address a{
 	footer{
 		padding: 5% 0 2% 0;
 		background-color: #7FFFD4;
-		color:white;
+		color:black;
 		text-align: center;
 		font-size: 17px;
 		margin:5% 1% 0 1%;
@@ -1134,7 +1134,7 @@ address a{
 
 	footer a[target="_blank"], footer a[onclick*="_blank"]{
 		text-decoration:none;
-		color:white;
+		color:black;
 		word-spacing: 7px;
 		font-family:helvetica, "sans serif";
 		font-weight: bold;
@@ -1273,8 +1273,8 @@ address a{
 		margin:10px 0;
 	}
 	.infoSec{
-		width: 40%;
-		font-size: 7px;
+		width: 94%;
+		font-size: 25px;
 		padding: 10px;
 		text-align:left;
 		margin: 10px 0;
@@ -1284,11 +1284,11 @@ address a{
 	}
 	.meteoOfAriano{
 		float:right;
-		width:50%;
+		width:100%;
 		margin:15px auto;
 	}
 	.meteoOfAriano iframe{
-		height:150px;
+		height:250px;
 		width: 100%;
 	}
 	.folk{
@@ -1324,17 +1324,17 @@ address a{
 	footer{
 		padding: 5% 0 2% 0;
 		background-color: #7FFFD4;
-		color:white;
+		color:black;
 		text-align: center;
-		font-size: 10px;
+		font-size: 13px;
 		margin:1% 1% 0 1%;
 		border-top: 2px solid #F8F8FF;
-		text-shadow: 0.5px 0.5px 2px black;
+		text-shadow: 0;
 	}
 
 	footer a[target="_blank"], footer a[onclick*="_blank"]{
 		text-decoration:none;
-		color:white;
+		color:black;
 		word-spacing: 7px;
 		font-family:helvetica, "sans serif";
 		font-weight: bold;
@@ -1363,11 +1363,11 @@ address a{
 		float:none;
 		font-family: Helvetica;
 		margin:auto;
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.fragments{
 		background-color: orange;
-			margin: 18px 47px;
+			margin: 18px 0px;
 			padding: 15px 0px;
 			overflow: auto;
 	}	
