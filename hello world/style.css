@@ -1,0 +1,41 @@
+.card-body {
+    flex: 1 1 auto;
+    padding: 5rem 4rem;
+}
+.btn {
+    margin: 10px 0px;
+    
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0a58ca;
+    border-color: #0a58ca;
+}
+h1{
+	padding-top:1%;
+}
+footer p {
+    padding-left: 0px;
+    color: hsl(209,2%,23%);
+    margin-bottom: 1%;
+}
+div.cookie{
+	padding: 15px 50px;
+	margin:0px;
+	width:100%
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0rem 0rem;
+}
+.hero {
+    background-color: hsl(209, 60%, 95%);
+    padding: 20px 0;
+}
+.plu {
+    border-top: 1px solid #FF0000;
+    padding-top: 33px;
+    padding-bottom: 12px;
+    margin-top: 17px;
+}
+
