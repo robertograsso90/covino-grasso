@@ -1,0 +1,605 @@
+.container{
+	display:flex;
+	background-color:#deefdd;
+	margin:0px;
+	font:14px Muli,sans-serif; 
+	padding: 20px;	
+	justify-content:space-between;
+	
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.inizio a{
+	margin:10px 20px;
+}
+
+.inizio a:hover {
+	color:green;
+}
+
+.container1{
+	display:flex;
+	background-color:red;
+	margin:0px;
+	font:14px Muli,sans-serif; 
+	padding:20px;
+	justify-content: space-between;
+	align-items: center;
+}
+.elenco{
+	padding-left:200px;
+}
+.elenco a{
+	color:white;
+	margin:0px 20px;
+	font-weight:bold;
+			
+}
+	
+body{
+	margin:0px;
+}
+.accedi{
+	border-left:2px solid white;
+	color: white;
+	font-weight: bold;
+	padding-left:8px;
+	
+}
+.puntovendita{
+	color:white;
+	font-weight:bold;
+	padding-right: 120px;
+	
+		
+}
+.bennet{
+	left:20px;
+	top:50px;
+	position:absolute;
+	padding:0px 0px 0px 20px;
+	width: 180px;
+    height: 150px;
+}
+.lista ul{
+	display:none;
+}
+.lista:hover ul{
+	display:block;
+	position:absolute;
+	z-index:1;
+	background-color:white;
+	list-style:none;
+	padding:5px 20px;
+}
+.lista li{
+	padding:10px 20px;
+}
+.lente{
+	width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    cursor: pointer;
+	border-radius: 2px;
+}
+
+
+form{
+	width:532px;
+	margin:auto;
+	position:relative;
+	
+	
+	
+}
+
+input{
+	border:1px solid grey;
+	border-radius:4px;
+	width:530px;
+	height:50px;
+	font-style:italic;
+}
+
+.bottone1{
+	border-radius:6px;
+	border:0px solid #4CAF50; 
+	padding: 0px 1px 0px 1px;
+	
+	
+}
+.destra{
+	display:flex;
+}
+.container2{
+	display:flex;
+	background-color:white;
+	margin:30px;
+	font:14px Muli,sans-serif; 
+	justify-content:space-between;
+	align-items:center;
+
+}
+.time a:hover {
+	color:green;
+}
+.list a:hover {
+	color:green;
+}
+.carrell a:hover {
+	color:green;
+}
+.lista{
+	padding-left:230px;
+	cursor:pointer;
+	
+}
+.icontimeslot{
+	width:30px;
+	height:30px;
+}
+.iconlistslot{
+	width:30px;
+	height:30px;
+}
+.iconcarrell{
+	width:30px;
+	height:30px;
+}
+.time{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-right:15px;
+}
+.list{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-right:15px;
+}
+.carrell{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-right:15px;
+}
+.scelte{
+	display:flex;
+	
+}
+
+h1{
+	font:18px Muli sans-serif;
+	background-color: #4cbb50;
+	color:white;
+	padding:10px;
+	text-align:center;
+}
+.container4{
+	display:flex;
+	
+}
+.presentazione{
+    padding:20px 55px;
+}
+.home{
+	padding-right:10px;
+	font:16px Muli, sans-serif
+}
+.azienda{
+	padding-right:10px;
+	font:16px Muli, sans-serif
+}
+.noi{
+	font:16px Muli,sans-serif;
+	color:#333333;
+	font-weight:bold;
+	padding-right:10px;
+}
+.presentazione a:hover{
+	color:green;
+}
+.storica{
+	width:97%;
+	height:auto;
+	padding:10px;
+}
+.storico{
+	display:flex;
+	align-items:center;
+}
+.containerparagrafo, .containerparagrafo2, .containerparagrafo3, .containerparagrafo4, .containerparagrafo5{
+	padding: 0px 100px;
+    display: flex;
+    align-items: center;
+	
+}
+
+.insegna, .vetrina, .bennetdrive, .gruppo, .primato {
+	padding: 20px;
+	width: 100%;
+    height: auto;
+}
+.storiaitaliana h2, .altromodo h2, .vicini h2,.tutti h2, .leader h2{
+	padding:10px;
+	margin:0px;
+	font:26px Muli sans-serif;
+	font-weight:bold;
+	
+}
+.storiaitaliana p,.altromodo p, .vicini p, .tutti p, .leader p  {
+	padding:10px;
+	margin:0px;
+	font:18px Muli sans-serif;
+}
+.olgiateverola{
+	display:flex;
+	justify-content:center;
+	padding:0px 50px;
+	
+;
+	
+}
+.olgiateverola a{
+	padding: 0px 15px;
+}
+.comasco{
+	width:100%;
+	
+	
+}
+.verona{
+	width:100%;
+	
+	
+}
+.basso{
+	display:flex;
+	box-shadow:13px 0 16px 0 hsl(0deg 0% 67%/ 29% );
+	margin: 50px 0px 0px;
+}
+.fine{
+	display: flex;
+    width: 70%;
+    padding: 5px 0px 5px 10px;
+	font:18px Muli, sans-serif;
+	color:#333333;
+	
+}
+.finale{
+	display:inline-flex;
+    flex-flow: column;
+    padding: 5px 5px;
+}
+.finale a{
+	width:100%;
+	margin:auto;
+	padding: inherit;
+}
+
+.basso a:hover{
+	color:green;
+}
+.logo{
+	width:100%;
+}
+.social{
+	display:flex;
+}
+.pippo{
+	padding-left:71px;
+	font:16px Muli,sans-serif;
+}
+.social img{
+	width:20px;
+	height:20px;
+}
+.finale1{
+    display: flex;
+    flex-flow: column;
+    box-shadow: -8px 15px 16px 15px hsl(0deg 0% 67% / 13%);
+    padding-bottom: 30px;
+}
+.ultimo{
+	display:flex;
+	background-color:red;
+	align-items:center;
+	margin:0px;
+	padding:0px 55px;
+}
+.ultimo1{
+	position: relative;
+    padding: 8px 20px 12px;
+	color: #fff;
+    display: flex;
+	flex-direction:column;
+	
+}
+.ultimo1 p{
+	margin:0px;
+}
+@media (max-width: 1267px){
+	input{
+		width:365px;
+		height:50px;
+		font-style:italic;
+	}
+	.bennet{
+		width:110px;
+		height:106;
+	}
+	.lista{
+		padding-left:160px;
+	}
+	.container2{
+		margin:10px;
+	}
+	form{
+		width:410px;
+	}
+	.container{
+		padding:10px;
+	}
+	.containerparagrafo, .containerparagrafo2, .containerparagrafo3, .containerparagrafo5, .containerparagrafo4{
+		padding:10px;{
+		
+	}
+	.fine{
+	width: 140%;
+    padding: 10px 0px 10px 0px;
+    font: 14px Muli, sans-serif;
+	}
+	.pippo{
+		padding-left:45px;
+	}
+
+}
+
+@media (max-width: 992px){
+	
+	html, body{
+		max-width:100%;
+		overflow-x: hidden;
+		
+	}
+	.bennet	{
+	left: 6px;
+    top: 26px;
+    padding: 0px 0px 0px 10px;
+    height: 73px;
+	}
+	.elenco a{
+			display:none;
+	}
+	.scelte{
+			display:none;
+	}
+	.inizio{
+		display:none;
+	}
+	.container{
+		font: 14px Muli,sans-serif;
+		padding: 5px 0px 5px 15px;
+		background-color:#deefdd;
+	}
+	.puntovendita{
+		padding-right:30px;
+	}
+	.lista{
+		display:none;
+	}
+	.container2{
+		margin:10px;
+	}
+	h1{
+		display:none;
+	}
+	.noi{
+		display:none;
+	}
+	.home{
+		display:none;
+	}
+	.presentazione{
+		padding:5px 10px;
+	}
+	.mobile{
+		display:none;
+	}
+	.azienda{
+		padding:5px 0px 5px 10px;
+		font: 16px Muli,sans-serif;
+	}
+	.containerparagrafo, .containerparagrafo3, .containerparagrafo5{
+		padding:10px;
+		flex-direction:column;
+	}
+	.containerparagrafo2, .containerparagrafo4{
+		padding:10px;
+		flex-direction:column-reverse;
+		
+	}
+	.olgiateverola{
+		flex-direction:column;
+		padding:10px;
+	}
+	.olgiateverola img{
+		margin-top:10px;
+	}
+	.basso{
+		flex-direction:column;
+	}
+	.finale2{
+		display:none;
+	}
+	.ultimo{
+		display:block;
+		padding:10px 0px 0px 30px;
+		
+	}
+	.ultimo img{
+		width:55px;
+		height:auto;
+	}
+	.ultimo1 .spa{
+		position:absolute;
+		top:-45px;
+		left:75px;
+		
+	}
+	.ultimo1{
+		padding:8px 1px 12px;
+	}
+	.fine{
+		width: 97%;
+		padding: 0px 30px 0px;
+		font: 14px Muli, sans-serif;
+	}
+	.logo{
+		display:none;
+	}
+	.pippo span{
+		display:none;
+	}
+	.pippo{
+		padding-left:40px;
+	}
+	.social{
+		display:flex;
+		justify-content: space-between;
+		max-width: 270px;
+	}
+	p{
+		font:16px Muli,sans-serif;
+	}
+	.spa strong{
+		position:relative;
+		top:15px;
+	}
+}
+@media (max-width:600px){
+
+	.fine{
+		width: 100%;
+		padding: 10px 0px 10px 0px;
+		font: 14px Muli, sans-serif;
+    
+	}
+	input{
+		width:500px;
+	}	
+}
+@media (max-width:534px){
+	
+	.fine{
+		
+		font: 11px Muli, sans-serif;
+		flex-direction:column;
+    
+	}
+	input{
+		width:376px;
+	}
+	.finale{
+		padding:5px 2px;
+	}
+	p{
+		font:12px Muli, sans-serif;
+	}
+	.finale .miky{
+		display:none;	
+	}
+	.finale:hover .miky{
+		display:block;
+	}
+	
+}
+@media (max-width:407px){
+	
+	.fine{
+		padding: 0px 0px 0px 0px;
+		
+		display:flex;
+		flex-flow:column;
+	}
+ 
+	input{
+		width:100%;
+	}
+	.ultimo{
+		display: block;
+		padding: 2px 0px 0px 5px;
+}
+	.finale{
+		font-size:14px;
+		position:relative;
+		
+	}
+	.ultimo1 {
+		font-size:10px;
+	}
+	.ultimo1 p{
+		font-size:10px;
+	}
+	.ultimo img{
+	width: 55px;
+    height: auto;
+    
+	}
+	.pippo{
+		padding-left: 20px;
+		font:16px Muli,sans-serif;
+	}
+	.storica{
+		width:98%;
+		height:auto;
+		padding:10px 2px;
+	}
+	.spa strong{
+		right:12px;
+	}
+	.container1{
+		background-color:red;
+		margin:0px;
+		font:12px Muli,sans-serif;
+		padding:20px;
+		display:block;
+	}
+	.puntovendita{
+		padding-left:62px;
+		font-size:9px;
+	}
+	.accedi{
+		font-size:9px;
+	}
+	.bennet{
+		left:0px;
+		top:47px;
+		position:absolute;
+		padding:0px 0px 0px 20px;
+		width: 45px;
+		height: auto;
+	}
+	.finale .minnie{
+		display:inline-block;
+		position:absolute;
+		z-index:2px;
+		top:0px;
+	}
+	.finale .miky{
+		display:none;	
+	}
+	.finale:hover .miky{
+		display:inline-block;
+		
+		
+	}
+}
+
