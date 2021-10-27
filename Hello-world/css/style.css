@@ -40,6 +40,10 @@ button.btn-sm {
 	padding:0px 8px;
 	font-size: 13px;
 }
+.card-body button.green {
+	color: white;
+	background-color:rgb(25, 135, 84);
+}
 footer p {
 	margin-bottom:9%;
 	padding-left:0px;
@@ -61,6 +65,10 @@ footer p {
 	color:hsl(210, 55%, 55%);
 	text-decoration:none;
 	font-weight: normal;
+	cursor: pointer;
+}
+.alert a.alert-link:hover {
+	text-shadow: 1px 1px 2px black;
 }
 @media (max-width:768px) {
 	* p {
