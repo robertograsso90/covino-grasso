@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PAGINA7</title>
+		<link href="esercizio7.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>ESERCIZIO 7</h1>
+		<form action="" method="post" name="registra" >
+			cognome:
+			<input type="text" name="cognome"  maxlength="50"  id="cognome" onchange="lettere()">
+			<br>
+			nome:
+			<input type="text" name="nome"  maxlength="50"id="nome" onchange="lettera()">
+			<br>
+			sesso:
+			<input type="radio" name="sesso" value="M">M
+			<input type="radio" name="sesso" value="F">F
+			<br>
+			ateneo:
+			<select name="ateneo">
+			<option value="nessuno" selected></option>
+			<option value="sapienza">La Sapienza</option>
+			<option value="luis guido carli">Luis Guido Carli</option>
+			<option value="guglielmo marconi">Guglielmo Marconi</option>
+			</select>
+			<br>
+			CAP:
+			<input type="text" name="cap" size="5"  id="cap" onchange="cifre()">
+			<br>
+			sono uno studente lavoratore
+			<input type="checkbox" name="lavoratore">
+			<br>
+			descrizione lavoro:
+			<input type="text" name="descr" size="80" maxlength="80">
+			<br>
+			<br>
+			<input type="submit" value="Invia" id="invio" onclick="vuoto()">
+			<input type="reset" value="Reset">
+		</form>
+		<script src="esercizio7.js"></script>
+	</body>
+	</html>
+		
+		
+		
+		
+	

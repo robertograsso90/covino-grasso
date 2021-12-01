@@ -1,0 +1,1 @@
+document.getElementById('pippo').innerHTML = document.URL
