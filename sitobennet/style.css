@@ -1,0 +1,1527 @@
+.container{
+	display:flex;
+	background-color:#deefdd;
+	margin:0px;
+	font:14px Muli,sans-serif; 
+	padding: 10px;	
+	justify-content:space-between;
+	position: fixed;
+    width: 99%;
+    top: 0px;
+	z-index: 10;
+}
+.maggiore, .minore{
+	display: none;
+}
+.scarrell1{
+	display: none;
+}
+.piu, .meno{
+	display: none;
+}
+.body{
+	overflow-x:hidden;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.inizio a{
+	margin:10px 20px;
+}
+
+.inizio a:hover {
+	color:green;
+}
+
+.container1{
+	display:flex;
+	background-color:#e21613;
+	margin:0px;
+	font:14px Muli,sans-serif; 
+	padding:20px;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+    width: 98%;
+	top: 37px;
+	z-index: 10;
+}
+.elenco{
+	padding-left:200px;
+}
+.elenco a{
+	color:white;
+	margin:0px 40px;
+	font-weight:bold;
+			
+}
+.barre{
+	width: 30px;
+	height: 30px;
+	display: none;
+}	
+body{
+	margin:0px;
+}
+.primo{
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 20px;
+    align-items: center;
+	font: 16px Muli,sans-serif;
+}
+.primo span{
+	color:#e21613;
+}
+.secondo, .quarto, .quinto, .sesto{
+	margin: 5px 20px;
+	font: 16px Muli,sans-serif;
+	border-bottom: 1px solid gray;
+}
+.secondo{
+	padding: 10px;
+}
+.numero2{
+	border-right:6px solid #e21613;
+	border-top:1px solid #e21613;
+	border-bottom: 1px solid #e21613;
+	border-radius: 0 10px 10px 0px;
+}
+.secondo div, .quarto div, .quinto div, .sesto div{
+	align-items: center;
+	margin: 10px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.secondo a:hover{
+	color: #5ad35e;
+	text-decoration: underline;
+	font: 16px Muli,sans-serif;
+}
+.accedi{
+	color: white;
+	font-weight: bold;
+	padding-left:8px;
+	
+}
+.accesso{
+	background-color: white;
+    overflow-y: scroll;
+	position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+	
+}
+.accesso casetta{
+	width:30px;
+	height:30px;
+}
+.x{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.calendario{
+	width:20px;
+	height:20px;
+}
+.calendario1{
+	width: 40px;
+	height: 40px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.tuomondo{
+    padding: 10px 0px 10px;
+    display: flex;
+    font: 16px Muli,sans-serif;
+	justify-content: space-between;
+	align-items: center;
+	background-image: linear-gradient(#f2f2f2,#ffffff 200%);
+}
+.tuomondo span{
+	color: #e21613;
+}
+.tuomondo div{
+	display: flex;
+}
+.registrato{
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+    padding: 10px 0px 10px;
+}
+.utenteregistrato{
+	flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.utentenonregistrato{
+	flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.accedendo{
+	background-color: #e21613;
+	border-radius: 4px;
+	padding: 8px 73px;
+}
+.accedendo:hover{
+	background-color: red;
+}
+.registrarsi:hover{
+	background-color:#74f079;
+}
+.registrarsi a, .accedendo a{
+	color:white
+}
+.registrarsi p, .accedendo p{
+	text-align: center;
+}
+.registrarsi{
+	background-color:limegreen;
+	border-radius: 4px;
+	padding: 8px 73px;
+}
+.ilmondo{
+	display: flex;
+	padding: 10px 0px;
+	margin: 10px;
+	border-top: 1px solid #e0e1e5;
+}
+.ilmondo a{
+	padding-left: 10px;
+}
+.ilmondo a:hover{
+	color: springgreen;
+}
+.scopri{
+	display: flex;
+	flex-direction: column;
+	padding-left: 30px;
+	border-bottom: 1px solid #e0e1e5;
+	background-image: linear-gradient(#f2f2f2,#ffffff 80%);
+}
+.scopri a {
+	padding: 10px;
+}
+.scopri a:hover{
+	color: springgreen;
+}
+.servizioclienti{
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+}
+.servizioclienti a:hover{
+	color: springgreen;
+}
+.vuoto{
+	padding: 20px;
+	background-image: linear-gradient(#f2f2f2,#ffffff 80%);
+}
+.puntovendita{
+	color:white;
+	font-weight:bold;
+	padding-right: 100px;		
+}
+.puntovendita1{
+	display: flex;
+    justify-content: space-between;
+}
+.bordo{
+	border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.bottone2{
+	border-radius:6px;
+	border:0px solid #4CAF50; 
+	padding: 0px 1px 0px 1px;
+	position:relative;
+	z-index:2;
+	top:0px;
+	left:0px;
+
+}
+.terzo{
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+}
+
+.terzo, .quarto{
+	margin:20px;
+}
+.terzo span{
+	padding-bottom: 10px;
+}
+.checkbox{
+	display: flex;
+    margin-top: 10px;
+}
+.box{
+	width: 20px;
+	height: 20px;
+}
+
+.lenteingrandimento{
+	width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -29px;
+    right: -44px;
+    cursor: pointer;
+	border-radius: 2px;
+}
+.lenteingrandimento1{
+	width: 30px;
+    height: 32px;
+    position: absolute;
+    top: -20px;
+    left: -4px;
+}
+.casetta, .user{
+	width: 30px;
+	height: 30px;
+	padding-right: 10px;
+}
+.user{
+	border-left: 2px solid white;
+	padding-left: 10px;
+}
+.bennet{
+	left:20px;
+	top:50px;
+	position:absolute;
+	padding:0px 0px 0px 20px;
+	width: 180px;
+    height: 130px;
+	position: fixed;
+	z-index: 12;
+}
+.bennetmondo{
+	position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+	z-index: 2;
+}
+.scoprivantaggi{
+	background-color: white;
+	position: absolute;
+    top: 0;
+    right: 0;
+	width: 38%;
+	font: 17px Muli sans-serif;
+	margin:0px;
+}
+.prodotti{
+	margin-left: 220px;
+}
+.arrow {
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+	transform: rotate( 45deg);
+    margin: 0 0 7px 5px;
+}
+.varie{
+	display: flex;
+}
+.colonna{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	border-right: 1px solid darkgrey;
+}
+.colonna p:hover{
+	color:#5ad35e;
+}
+.rosso{
+	color:white;
+	background-color: #e21613;
+	padding: 25px 20px 20px;
+	margin: 0 0 14px;
+}
+.scrittaRossa{
+	color:#e21613;
+	border-top:1px solid #e21613;
+	border-bottom: 1px solid #e21613;
+	border-right: 10px solid #e21613;
+	border-top-right-radius: 4px ;
+	border-bottom-right-radius: 4px;
+}
+.seleziona{
+	padding: 12px 24px;
+	margin: 0px;
+	cursor: pointer;
+}
+.colonna1{
+	padding: 10px 45px;
+
+}
+.colonna1 p{
+	padding: 0 20px;
+	margin: 0px;
+}
+.speciale2{
+	color:#e21613; 
+	font: 28px Muli,sans-serif;
+}
+.albero{
+	display: flex;
+	align-items: center;
+}
+.alberonatale{
+	width: 50px;
+	height: 50px;
+	padding-right: 20px;
+}
+.colonna2{
+	padding: 10px 45px;
+
+}
+.colonna2 p{
+	padding: 0 40px;
+	color:#e21613
+}
+.contenitorePannelli{
+	display: flex;
+}
+.pannello{
+	display: flex;
+	flex-direction: column;
+	padding: 30px 30px 20px 0px;
+}
+.pannello a{
+	padding: 10px;
+}
+.pannello a:hover{
+	color:#5ad35e;
+	text-decoration: underline;
+}
+.lente{
+	width: 50px;
+    height: 50px;
+    position: absolute;
+	top: -12px;
+    right: -4px;
+    cursor: pointer;
+	border-radius: 2px;
+}
+.punto{
+	background-color: hsla(0,0%,94.9%,.5);
+    border: 2px solid hsla(0,0%,74.1%,.4);
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 12px;
+	width: 80%;
+	height: 26px;
+}
+.insieme{
+	display: flex;
+}
+form{
+	width:532px;
+	margin:auto;
+	position:relative;
+	
+	
+	
+}
+
+.barra{
+	border:1px solid green;
+	border-radius:4px;
+	width:530px;
+	height:45px;
+}
+
+.bottone1{
+	border-radius:6px;
+	border:0px solid #4CAF50; 
+	padding: 0px 1px 0px 1px;
+	
+	
+}
+.destra{
+	display:flex;
+}
+.destraprodotti div:nth-child(2){
+	padding-top: 20px;
+}
+.destraprodotti button{
+	margin: 0px 5px 10px 0px; 
+	padding: 7px; 
+}
+.clicca1{
+	position:relative;
+	z-index:0;
+	top:11px;
+	
+}
+.clicca{
+	position:relative;
+	z-index:2;
+}
+.cibo{
+	background-color:white;
+	z-index: 1;
+	width: 65%;
+    position: absolute;
+    top: 190px;
+    left: 5%;
+}
+.costo{
+	border-radius: 6px;
+    border: 0px solid #4CAF50;
+}
+.costo{
+	background-color: #4CAF50;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    align-self: flex-end;
+    width: 226px;
+    padding: 16px;
+}
+.cercaprodotti{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100%;
+	z-index: 1;
+	
+}
+.sinistraprodotti{
+	width: 100%;
+}
+.destraprodotti{
+	width:45%;
+	padding-left: 20px;
+}
+.sottotitoli{
+	width: 50%;
+	padding: 15px 10px;
+	cursor: pointer;
+}
+.sottotitoli1{
+	background-color:green;
+    color: white;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+.sottotitoli button a{
+	padding: 20px;
+}
+.fastfood{
+	display: flex;
+	background-color:white;
+	z-index: 1;
+	width: 90%;
+    position: absolute;
+    top: 190px;
+    left: 5%;
+}
+.magazine{
+	display: flex;
+}
+.magazine div{
+	text-align: center;
+}
+.alimentari{
+	display: flex;
+	padding: 0 20px;
+}
+.prezzi{
+	flex-direction: column;
+	padding: 20px;
+}
+.prezzi1{
+	display: flex;
+}
+.pizza img{
+	width:20%;
+	height:auto;
+} 
+.pizza{
+	display:flex;
+	margin:10px;
+	padding:10px;
+} 
+.pizza span{
+	padding:10px 30px;
+	align-self: flex-end;
+} 
+.nascondere{
+	display:none;
+}
+.costo{
+	background-color: #4CAF50;
+	color: white;
+	font-size: 10px;
+	cursor: pointer;
+	align-self: flex-end;
+	width: 200px;
+	padding: 12px;
+}
+.sfondo{
+	background-color:rgba(31,31,31,0.25);
+	width:100%;
+	height:100%;
+}
+
+.container2{
+	display:flex;
+	background-color:white;
+	padding:16px;
+	font:14px Muli,sans-serif; 
+	justify-content:space-between;
+	align-items:center;
+	position: fixed;
+	width: 98%;
+	top: 109px;
+}
+.montanoLucino{
+	position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+	z-index: 20;
+}
+.menuProdotti{
+	position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+	z-index: 1;
+}
+.preferenze{
+	position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 2;
+}
+.orari{	
+	background-color: white;
+	position: absolute;
+    top: 0%;
+    right: 30%;
+	width: 37%;
+	font: 17px Muli sans-serif;
+	margin:0px;
+}
+.iconaorologio{
+	width: 40px;
+	height: 40px;
+}
+.fascedisponibili{
+	display: flex;
+	justify-content: space-between;
+	background-color: #f2f2f2;
+	padding: 15px;
+}
+.fascedisponibili span{
+	color:red;
+}
+.fascedisponibili div{
+	display: flex;
+	align-items: center;
+}
+.fascedisponibili2{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+	padding: 25px;
+	
+}
+.fascedisponibili2 span{
+	padding: 10px 0 0px;
+}
+.data{
+	color: #4CAF50;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 10px 0px;
+	display: flex;
+    justify-content: space-between;
+	
+}
+.data div{
+	color: black;
+	cursor: pointer;
+}
+.mattina1, .pomeriggio1{
+	padding: 10px 0;
+}
+.fascedisponibili3, .fascedisponibili4{
+	padding: 15px;
+	margin: 15px;
+    box-shadow: 0px 0px 10px 15px #f0f0f0;
+}
+.disponibile{
+   color: greenyellow;
+   padding: 10px;
+}
+.quasiesaurita{
+    color: orange;
+	padding: 10px;
+}
+.nondisponibile{
+	color: #d0d0d0;
+	padding: 10px;
+}
+.mattina, .pomeriggio{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mattina span, .pomeriggio span{
+	padding: 5px;
+	display: block;
+}
+
+.legenda{
+	display: flex;
+	padding: 5px 15px;
+    background-color: #f2f2f2;
+}
+.legenda div{
+	display: flex;
+}
+.legenda span{
+	margin-left: 8px;
+}
+.time a:hover {
+	color:green;
+}
+.list a:hover {
+	color:green;
+}
+.carrell a:hover {
+	color:green;
+}
+.lista{
+	padding-left:230px;
+	cursor:pointer;
+	
+}
+.icontimeslot{
+	width:30px;
+	height:30px;
+}
+.iconlistslot{
+	width:30px;
+	height:30px;
+}
+.listapreferiti{
+	position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+}
+.boxbennet{
+	background-image: url(boxbennet.jpg);
+	position: absolute;
+	top: 7%;
+    right: 24%;
+    width: 53%;
+	font: 17px Muli sans-serif;
+	margin:0px;
+}
+.imgbennet{
+	width: 100%;
+}
+.end{
+	display: flex;
+	justify-content: flex-end;
+}
+.close{
+	position: absolute;
+	top: 15px;
+    right: 25px;
+}
+.credenziali{
+	width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+    background-color: #fff;
+    display: flex;
+    top: 40px;
+    right: 8%;
+    flex-flow: column;
+    position: absolute;
+    z-index: 3;
+	font: 16px Muli,sans-serif;
+}
+.registrazione{
+	justify-content: space-between;
+    display: flex;
+}
+.entra{
+    flex-direction: column;
+	text-align: center;
+	padding: 0 15px;
+}
+.datipersonali{
+	display: flex;
+	flex-direction: column;
+	padding: 10px 30px;
+}
+.provaregistrarti{
+	color: white;
+    background-color: rgb(63, 194, 63);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+	text-align: center;
+	padding: 0 10px;
+	border-radius: 0 0 0 12px;
+}
+.provaregistrarti p{
+	color: #f0f0f0;
+}
+.scriveredentro{
+	border-radius: 5px;
+    padding-left: 16px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    background-color: hsla(0,0%,94.9%,.4);
+    line-height: 20px;
+    border: 1px solid hsla(0,0%,94.9%,.4);
+}
+.passworddimenticata{
+	display: flex;
+	justify-content: flex-end;
+    padding: 25px 0 0 0;
+    font-size: 14px;
+}
+.passworddimenticata a:hover{
+	color: rgb(67, 170, 67);
+}
+.passworddimenticata div{
+	display: flex;
+}
+.errorMessage{
+	color:#e21613;
+}
+.annulla{
+	display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+	align-items: center;
+}
+.annulla button{
+	background-color: #e21613;
+	padding: 8px;
+	border-radius: 8px;
+    border: none;
+	color:white;
+}
+.annulla span:hover{
+	color: rgb(67, 170, 67);
+}
+.iconcarrell{
+	width:30px;
+	height:30px;
+}
+.time{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-right:10px;
+}
+.list{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-right:15px;
+}
+.carrell{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-right:15px;
+}
+.scelte{
+	display:flex;
+	
+}
+.time p:hover{
+	color: rgb(64, 185, 125);
+}
+.list p:hover{
+	color: rgb(64, 185, 125); 
+}
+.carrell p:hover{
+	color:  rgb(64, 185, 125);
+}
+
+h1{
+	font:18px Muli sans-serif;
+	background-color: #4cbb50;
+	color:white;
+	padding:10px;
+	text-align:center;
+	margin-top: 219px;
+}
+.container4{
+	display:flex;
+	
+}
+.presentazione{
+    padding:20px 40px;
+}
+.home{
+	padding-right:10px;
+	font:16px Muli, sans-serif;
+}
+.azienda{
+	padding-right:10px;
+	font:16px Muli, sans-serif;
+}
+.noi{
+	font:16px Muli,sans-serif;
+	color:#333333;
+	font-weight:bold;
+	padding-right:10px;
+}
+.presentazione a:hover{
+	color:green;
+}
+.marketing{
+	display: flex;
+    justify-content: center;
+}
+.gastronomia{
+	width: 94%;
+}
+.lavoraconnoi, .opportunità {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0px 20px 40px;
+	font: 17px Mulin, sans-serif;
+}
+.container5{
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 25px 20px;
+}
+.container6{
+	display:flex;
+	flex-direction: column;
+	color: #333333;
+}
+.fcontainer5{
+	display: flex;
+	flex-basis: 98%;
+}
+.farmacista{
+	flex-direction: column;
+	padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 36px 0 rgb(0 0 0 / 12%);
+    background-color: #fff;
+    border: 2px solid #fff;
+	margin:10px;
+	font: 14px Muli, sans-serif;
+}
+.farmacista:hover{
+	border:1px solid #4cbb50;
+}
+.spazio{
+	padding: 10px 0px;
+	display: block;
+}
+.tutteleofferte{
+	padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 36px 0 rgb(0 0 0 / 12%);
+    background-color: #fff;
+    border: 2px solid #fff;
+	margin:10px;
+	font: 14px Muli, sans-serif;
+	display: flex;
+	align-items: center;
+	flex-basis: 20%;
+	justify-content: center;
+}
+.tutteleofferte a{
+	color:#4cbb50;
+}
+.linkedin{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 30px;
+}
+.immaginelinkedin{
+	width: 250px;
+    height: 60px
+}
+.linkedin a button{
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    border: 1px solid #757575;
+    background-color: #fff;
+    line-height: 1.5;
+    border-radius: 5px;
+	padding: 5px 15px;
+}
+.linkedin a button:hover{
+	border:1px solid #4cbb50;
+	color:#4cbb50;
+}
+.container7{
+	display: flex;
+	margin:25px;
+	padding: 35px 0px 0px 0px;
+}	
+.candidaturaspontanea{
+	padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    align-self: flex-end;
+}
+.candidaturaspontanea p{
+	font: 17px muli, sans-serif;
+    padding-right: 50px;
+	color: #333333;
+}
+.candidati{
+	justify-content: right;
+    display: flex;
+}
+.candidati a {
+	background-color:#4cbb50;
+    border-radius: 4px;
+    padding: 8px 73px;
+	color: #fff;
+}
+.candidati a:hover{
+	background-color:#74f079
+}
+.donna{
+	justify-content:space-between;
+	display: flex;
+}
+.donnasupermercato{
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container8{
+	display: flex;
+	flex-direction: column;
+}
+.curriculum{
+	border-bottom: 2px solid #bdbdbd;
+	margin:10px 25px;
+	font: 17px muli, sans-serif;
+	padding: 6px;
+}
+.cv1{
+	color:#4cbb50;
+}
+.scriverecv{
+	display: flex;
+	justify-content: space-between;
+}
+.scriverecv span {
+	padding-top: 10px;
+}
+.spiegazione span {
+	color:#3498db;;
+}
+.spiegazione p{
+	padding:0px 20px;
+}
+.arrow1{
+	border: solid #333;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+	transform: rotate( 43deg);
+    margin: 0 0 17px 0px;
+	border-color: #757575;
+}
+.arrow3{
+	border: solid #333;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+	transform: rotate( 230deg);
+    margin: 0 0 17px 0px;
+	border-color: #757575;
+}
+.basso{
+	display:flex;
+	box-shadow:13px 0 16px 0 hsl(0deg 0% 67%/ 29% );
+	margin: 50px 0px 0px;
+	font: 16px Muli,sans-serif;
+    color: #333333;
+}
+.fine{
+	display: flex;
+    width: 76%;
+    justify-content: space-around;
+    font: 14px Muli, sans-serif;
+    color: #333333;
+	padding: 20px 0;
+}
+.finale{
+    padding: 0px 5px;
+}
+.finale a{
+	width:100%;
+	margin:auto;
+	padding: inherit;
+}
+
+.basso a:hover{
+	color:green;
+}
+.logo{
+	width: 30%;
+}
+.pippo{
+	padding-top: 30px;
+    font: 13px Muli, sans-serif;
+}
+.social{
+	display: flex;
+}
+.social img{
+	width:20px;
+	height:20px;
+	padding: 10px 10px 10px 0;
+}
+.finale1{
+    box-shadow: -8px 15px 16px 15px hsl(0deg 0% 67% / 13%);
+    padding: 35px;
+	width: 24%;
+}
+.ultimo{
+	display:flex;
+	background-color: #e21613;
+	align-items:center;
+	margin:0px;
+	padding:0px 55px;
+}
+.ultimo img{
+	width: 80px;
+}
+.ultimo1{
+	position: relative;
+    padding: 8px 20px 12px;
+	color: #fff;
+    display: flex;
+	flex-direction:column;
+	
+}
+.ultimo1 p{
+	margin:0px;
+}
+.miky{
+	display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.x1{
+	display: none;
+}
+
+@media (max-width: 1267px){
+	.elenco a{
+		margin: 0px 20px;
+	}
+	.elenco{
+		padding-left: 175px;
+	}
+	.puntovendita{
+		padding-right: 52px;
+	}
+	.container1{
+		padding: 10px;
+	}
+	.bennet{
+		width:146px;
+		height: auto;
+	}
+	.clicca1{
+		top:0;
+		left: 0;
+	}
+	.prodotti{
+		margin-left: 192px;
+	}
+	.barra{
+		border-radius: 5px;
+    	width: 300px;
+    	height: 46px;
+		border: 1px solid grey;
+	}
+	.carrell{
+		padding-right: 0;
+	}
+	.lente{
+		top: 0px;
+    	right: -38px;
+	}
+	.lista{
+		padding-left:160px;
+	}
+	.container2{
+		margin: 0px;
+    	padding: 10px 5px 10px 0px;
+    	width: 100%;
+    	top: 90px;
+	}
+	h1{
+		margin-top: 177px;
+    	padding: 0px;
+	}
+	.presentazione{
+		padding: 10px 40px;
+	}
+	.gastronomia{
+		width: 90%;
+	}
+	.candidaturaspontanea{
+		width: 75%;
+		padding: 12px 10px 10px 10px;
+    	display: flex;
+    	flex-direction: column;
+    	font: 14px;
+	}
+	.candidaturaspontanea p{
+		padding-right: 10px;
+	}
+	.donna{
+		padding: 20px 20px 10px 20px;
+	}
+}
+	
+@media (max-width: 992px){
+	.magazine{
+		display: none;
+	}
+	
+	.inizio, .elenco, .accedi, .scelte{
+		display: none;
+	}
+	.bennet{
+		width: 52px;
+		height: auto;
+		top:42px;
+	}
+    .puntovendita{
+		display: none;
+	}
+	.container1{
+		display: flex;
+    	justify-content: flex-end;
+    	padding: 10px;
+	}
+	h1{
+		display: none;
+	}
+	.prodotti{
+		display: none;
+	}
+	.container2{
+		display: flex;
+		justify-content: center;
+		padding: 10px 0;
+		top: 87px;
+		width: 100%;
+		z-index: 20;
+	}
+	.arrow{
+		display: none;
+	}
+	.barra{
+		width: 85%;
+		height: 44px;
+    	border: 2px solid #bdbdbd;
+	}
+	.container4{
+		background-color: #f1f1f1;
+	}
+	.container6{
+		margin-top: 159px;
+	}
+	.insieme{
+		justify-content: center;
+    	width: 99%;
+	}
+	.destra{
+		width: 32%;
+    	justify-content: space-between;
+	}
+	.user{
+		padding-right: 30%;
+		border: none;
+	}
+	.lavoraconnoi{
+		padding: 16px 12px;
+	}
+	.gastronomia{
+		width: 100%;
+	}
+	h2{
+		font-size: 18px;
+	}
+	.lavoraconnoi span{
+		padding-top: 30px;
+	}
+	.opportunità, .container5{
+		padding: 16px 12px 0;
+	}
+	.linkedin{
+		justify-content: space-around;
+	}
+	.container7{
+		display: block;
+		position: relative;
+	}
+	.candidaturaspontanea{
+		width: 96%;
+	}
+	.donna{
+		position: absolute;
+		bottom: 50px;
+    	width: 95%;
+	}
+	
+	.candidati{
+
+		margin-top: 300px;
+		justify-content: center;
+	}
+	.candidati a{
+		width: 100%;
+		text-align: center;
+	}
+	.fine{
+		flex-direction: column;
+		box-shadow: 0 -13px 16px 0 hsl(0deg 0% 67% / 6%);
+		width: 96%;
+		padding: 0;
+	}
+	.logobennet{
+		display: none;
+	}
+	.basso{
+		flex-direction: column;
+	}
+	.pippo{
+		padding: 0;
+	}
+	.pippo span{
+		display: none;
+	}
+	.finale1{
+    	width: 96%;
+    	display: flex;
+    	flex-direction: column;
+		padding: 16px
+	}
+	.finale {
+		box-shadow: 0 13px 16px 0 #f3f3f3;
+		width: 100%;
+	}
+	.piu{
+		font-size: 18px;
+	}
+	.mostrare {
+		display: block;
+	}
+	.plus{
+		display: flex;
+		justify-content: space-between;
+	}
+	.presentazione span, .home{
+		display: none;
+	}
+	.presentazione .az{
+		display: block;
+	}
+}
+
+@media (max-width: 425px){
+	html{
+		overflow-x: hidden;
+	}
+	.barra{
+		width: 85%;
+		height: 39px;
+		border: 2px solid #bdbdbd;
+	}
+	.lente{
+		height: 45px;
+	}
+	.container{
+		padding: 5px;
+		font: 12px Muli,sans-serif;
+	}
+	.container1{
+		display: flex;
+   		justify-content: space-around;
+		top:24px;
+	}
+	.bennet{
+		top:24px;
+		width: 67px;
+		left: 36px;
+	}
+	.container2{
+		padding: 0px;
+		top: 74px;
+    	padding: 10px 0px;
+		z-index: 20;
+	}
+	.ultimo div{
+		display: flex;
+		font-size: 12px;
+	}
+	.ultimo{
+		display: block;
+		padding: 12px;
+	}
+	.ultimo1{
+		padding: 10px 0;
+		position: relative;
+	}
+	.spa{
+		position: absolute;
+		top: -42px;
+    	left: 105px;
+	}
+	.linkedin{
+		flex-direction: column;
+	}
+	.linkedin button{
+		margin:20px;
+	}
+	.linkedin span{
+		padding: 0 70px;
+	}
+	.container7{
+		margin:0;
+		padding:0;
+	}
+	.candidaturaspontanea p{
+		font:12px Mulin, sans-serif;
+	}
+	.candidati{
+		margin-top: 144px;
+	}
+	.donnasupermercato{
+		width: 94%;
+	}
+	.insieme{
+		justify-content: flex-start;
+		width: 96%;
+	}
+	                  
+	.fcontainer5{
+		display: block;
+	}
+	.mostrare{
+		display: block;
+	}
+	body{
+		overflow-y: none;
+	}
+	
+	.farmacista, .candidaturaspontanea{
+		font-size: 12px;
+	}
+	.lavoraconnoi{
+		font-size: 14px;
+	}
+	.carrell1{
+		display: block;
+	}
+	.barre{
+		display: block;
+		position: absolute;
+    	left: 14px;
+    	top: 10px;
+	}
+	.user{
+		padding-right: 20%;
+	}
+	.varie{
+		display: block;
+	}
+	.colonna{
+		width: 100%;
+	}
+	.colonna2{
+		padding: 10px 45px;
+	}
+	.cibo{
+		top:0;
+		left: 0;
+		width: 100%;
+	}
+	.accesso{
+		width: 100%;
+		height: 73%;
+	}
+	.rosso{
+		background-color: white;
+		color: #e21613;
+	}
+	.contenitorePannelli{
+		flex-direction: column;
+	}
+	.rosso{
+		display: flex;
+		justify-content: space-between;
+		padding: 30px 26px;
+		border-bottom: 2px solid #f2f2f2;
+	}
+	.maggiore .minore{
+		display:block;
+		cursor: pointer;
+		color: #333;
+		font-size: 18px;
+	}
+	.x1{
+		width: 25px;
+		height: 25px;
+		display: block;
+		cursor: pointer;
+	}
+	.colonna div{
+		display: flex;
+    	justify-content: space-between;
+    	padding: 10px 20px;
+    	font-size: 18px;
+		border-bottom: 2px solid #f2f2f2;
+	}
+	.scrittaRossa{
+		border: none;
+	}
+	.seleziona{
+		display: flex;
+    	justify-content: space-between;
+	}
+
+}

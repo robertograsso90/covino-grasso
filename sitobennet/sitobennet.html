@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<head>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<div class="inizio">
+			<a href="https://www.bennet.com/workwithus/landing">Lavora con noi</a>
+			<a href="https://www.bennet.com/customerCare">Servizio Clienti</a>
+			<a href="https://www.bennet.com/storefinder">Punti Vendita</a>
+		</div>
+		<span class="orario">Primo ritiro dalle <strong>11:30</strong> di<strong> oggi</strong></span>
+	</div>
+	<div class="container1">
+		<div class="strisce">
+			<img class="barre" src="strisce.jpg">
+		</div>
+		<div class="elenco">
+			<a href="https://www.bennet.com/flyer">Volantini</a>
+			<a href="https://www.bennet.com/bennetClub">Bennet club</a>
+			<a href="https://www.bennet.com/magazine">Magazine</a>
+		</div>
+		<div class="destra">
+			<img class="casetta" src="casetta.jpg">
+			<span class="puntovendita" onclick="apriMontano()">Punto Vendita<br>Montano Lucino</span>
+			<div class="montanoLucino nascondere" id="montanoLucino">
+				<div class="sfondo" onclick="chiudiMontano()">
+				</div>
+				<div class="accesso">
+					<div class="primo">
+						<div>
+							<img class="casetta" src="casetta.jpg">
+							<span>Il Tuo Punto Vendita Bennet club</span>
+						</div>
+						<img class="x" src="iconx.jpg" onclick="chiudiMontano()">
+					</div>
+					<div class="secondo numero2">
+						<p><strong>MONTANO LUCINO (CO)</strong></p>
+						<img class="calendario" src="iconcalendar.jpg">
+						<span>Aperto oggi dalle 08:30 alle 20:30</span>
+						<div>
+							<img class="bennetdrive" src="bennetdrive.jpg">
+							<span>Primo ritiro disponibile:<strong>oggi</strong> alle 12:30</span>
+						</div>
+						<a href="https://www.bennet.com/storefinder/iper/0033">Dettagli Negozio</a>
+					</div>
+					<div class="terzo">
+						<p>Cambia il tuo Punto Vendita Bennetdrive</p>
+						<input class="punto" placeholder="Cap.Citta' o provincia">
+						<button class="bottone2">
+							<img class="lenteingrandimento1" src="image3.jpg">
+						</button>
+						<div class="checkbox">
+							<input class="box" id="quadrato" type="checkbox">
+							<label for="quadrato"><img class="bennetdrive" src="bennetdrive.jpg"></label>
+							<input class="box" id="quadrato" type="checkbox">
+							<label for="quadrato"><img class="bennetdrive" src="bennetdrive.jpg"></label>
+						</div>
+					</div>
+					<div class="quarto">
+						<p><strong>CASSANO RIZZARDI COMO (CO)</strong></p>
+						<img class="calendario" src="iconcalendar.jpg">
+						<span>Aperto oggi dalle 08:30 alle 20:30</span>
+						<div>
+							<img class="bennetdrive" src="bennetdrive.jpg">
+							<span>Primo ritiro disponibile:<strong>oggi</strong> alle 12:30</span>
+						</div>
+						<div class="puntovendita1">
+							<a href="https://www.bennet.com/storefinder/iper/0033">Dettagli Negozio</a>
+							<a class="bordo" href=""><img class="casetta" src="casetta.jpg"><span>Cambia Punto
+									Vendita</span></a>
+						</div>
+					</div>
+					<div class="quinto">
+						<p><strong>TAVERNOLA (CO)</strong></p>
+						<img class="calendario" src="iconcalendar.jpg">
+						<span>Aperto oggi dalle 08:30 alle 20:30</span>
+						<div>
+							<img class="bennetdrive" src="bennetdrive.jpg">
+							<span>Primo ritiro disponibile:<strong>oggi</strong> alle 12:30</span>
+						</div>
+						<div class="puntovendita1">
+							<a href="https://www.bennet.com/storefinder/iper/0033">Dettagli Negozio</a>
+							<a class="bordo" href=""><img class="casetta" src="casetta.jpg"><span>Cambia Punto
+									Vendita</span></a>
+						</div>
+					</div>
+					<div class="sesto">
+						<p><strong>OLGIATE COMASCO (CO)</strong></p>
+						<img class="calendario" src="iconcalendar.jpg">
+						<span>Aperto oggi dalle 08:30 alle 20:30</span>
+						<div>
+							<img class="bennetdrive" src="bennetdrive.jpg">
+							<span>Primo ritiro disponibile:<strong>oggi</strong> alle 12:30</span>
+						</div>
+						<div class="puntovendita1">
+							<a href="https://www.bennet.com/storefinder/iper/0033">Dettagli Negozio</a>
+							<a class="bordo" href=""><img class="casetta" src="casetta.jpg"><span>Cambia Punto
+									Vendita</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img class="user" src="user.jpg">
+			<span class="accedi" onclick="aprimondoBennet()">Il tuo mondo bennet club<br>Accedi e scopri i
+				vantaggi</span>
+			<div class="bennetmondo nascondere" id="bennetmondo">
+				<div class="sfondo" onclick="chiudimondoBennet()">
+				</div>
+				<div class="scoprivantaggi">
+					<div class="tuomondo">
+						<div>
+							<img class="calendario1" src="mondobennet.jpg">
+							<p><strong>Il tuo mondo <span>Bennet Club</span></strong></p>
+						</div>
+						<img class="x" src="iconx.jpg" onclick="chiudimondoBennet()">
+					</div>
+					<div class="registrato">
+						<div class="Utenteregistrato">
+							<p>Utente già registrato?</p>
+							<button class="accedendo"><a href="">Accedi</a></button>
+						</div>
+						<div class="Utentenonregistrato">
+							<p>Utente non registrato?</p>
+							<button class="registrarsi"><a href="">Registrati</a></button>
+						</div>
+					</div>
+					<div class="ilmondo">
+						<a href="https://www.bennet.com/bennetClub"><strong>Il mondo Bennet Club</strong></a>
+					</div>
+					<div class="scopri">
+						<a href="https://www.bennet.com/raccoltaPunti">Scopri la raccolta punti</a>
+						<a href="https://www.bennet.com/123sconto">Gioca con 1,2,3.....SCONTO!</a>
+						<a href="https://www.bennet.com/dashboard/promoScuola">Noi amiamo la scuola</a>
+					</div>
+					<div class="servizioclienti">
+						<a href="https://www.bennet.com/customerCare"><strong>Servizio Clienti</strong></a>
+					</div>
+					<div class="vuoto">
+					</div>
+				</div>
+			</div>
+			<div class="scarrell1">
+				<img class="iconcarrell" src="image6.png">
+			</div>
+		</div>
+	</div>
+	<div class="tre">
+		<img class="bennet" src="bennet-logo.png"></img>
+	</div>
+	<div class="container2">
+		<div>
+			<a class="prodotti" onclick="mostraProdotti()">PRODOTTI</a>
+			<i class="arrow"></i>
+		</div>
+		<div class="nascondere menuProdotti" id="menuProdotti">
+			<div class="sfondo" onclick="chiudiProdotti()">
+			</div>
+			<div class="cibo" id="cibo">
+				<div class="varie">
+					<div class="colonna">
+						<div>
+							<span>Menu</span>
+							<img class="x1" src="x1.jpg">
+						</div>
+						<p class="rosso" id="rosso"><strong class="minore mostrare"><</strong><strong>SPESA ONLINE</strong><strong class="maggiore mostrare">></strong></p>
+						<p class="scrittaRossa seleziona magazine" id="speciale"><strong id="minore"><</strong><span  onclick="visualizzaFeste()">Speciale Feste</span><strong onclick="visualizzaFeste()">></strong></p>
+						<p class="seleziona magazine" id="freschissimi"><strong id="minore1"><</strong><span onclick="visualizzaFreschissimi()">Freschissimi al Banco</span><strong onclick="visualizzaFreschissimi()">></strong></p>
+					</div>
+					<div class="colonna1 magazine" id="colonna1">
+						<div class="albero">
+							<img class="alberonatale" src="alberonatale.jpg">
+							<span class="speciale2">Speciale feste</span>
+						</div>
+						<div class="contenitorePannelli">
+							<div class="pannello">
+								<a href="">DOLCI DI NATALE</a>
+								<a href="">Panettoni</a>
+								<a href="https://www.bennet.com/Categories/COLAZIONE%2C-DOLCI-E-CAFFE%27/DOLCI-DI-NATALE/PANETTONI/c/5273">Panettoni farciti</a>
+								<a href="https://www.bennet.com/Categories/COLAZIONE%2C-DOLCI-E-CAFFE%27/DOLCI-DI-NATALE/PANDORO/c/5275">Pandoro</a>
+								<a href="https://www.bennet.com/Categories/COLAZIONE%2C-DOLCI-E-CAFFE%27/DOLCI-DI-NATALE/PANDORO-FARCITO/c/5276">Pandoro farcito</a>
+								<a href="">Torroni e Torroncini</a>
+							</div>
+							<div class="pannello">
+								<a href="">IDEE REGALO</a>
+								<a href="">Candele Decorative e Accessori Vari</a>
+								<a href="">Cofanetti Profumeria</a>
+								<a href="">Film DVD BLU-RAY</a>
+								<a href="">Televisori</a>
+								<a href="">Ceste di Natale</a>
+							</div>
+						</div>
+					</div>
+					<div class="colonna2 nascondere" id="colonna2">
+						<div class="albero">
+							<img class="alberonatale" src="carnepesce.jpg">
+							<span class="speciale2">Freschissimi al banco</span>
+						</div>
+						<div class="contenitorePannelli">
+							<div class="pannello">
+								<a href="">FRUTTA</a>
+								<a href="">Frutta fresca</a>
+								<a href="">Agrumi</a>
+								<a href="">Macedonie e succhi</a>
+								<a href="">Frutti di Bosco</a>
+								<a href="">Frutta Esotica</a>
+							</div>
+							<div class="pannello">
+								<a href="">VERDURA</a>
+								<a href="">Verdura fresca</a>
+								<a href="">Patate</a>
+								<a href="">Aglio e Cipolle</a>
+								<a href="">Insalat Pronte</a>
+								<a href="">Erbe e Aromi</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="insieme">
+			<input class="barra" id="uno" placeholder="cerca un prodotto" onchange="cercaProdotti()">
+			<button class="bottone1 clicca1">
+				<img class="lente" src="image3.jpg">
+			</button>
+			<div class="nascondere cercaprodotti" id="cercaprodotti">
+				<div class="sfondo" id="togliProdotti" onclick="togliProdotti()">
+				</div>
+				<div class="fastfood">
+					<div class="sinistraProdotti">
+						<div class="magazine">
+							<div class="sottotitoli">Cerca in Prodotti</div>
+							<div class="sottotitoli sottotitoli1">Cerca in Magazine</div>
+						</div>
+						<div class="pizza">
+							<img class="margherita" src="pizzamargherita.jpg">
+							<div class="alimentari">
+								<div class="prezzi">
+									<h4>Pizza Margherita</h4>
+									<span>50 g 4,20 € / kg</span>
+								</div>
+								<div class=prezzi1>
+									<span><strong>€5,00</strong></span>
+									<button id="aggiungere" class="costo">Aggiungi al carrello</button>
+								</div>
+							</div>
+						</div>
+						<div class="pizza">
+							<img class="margherita" src="pane.jpg">
+							<div class="alimentari">
+								<div class="prezzi">
+									<h4>Pane</h4>
+									<span>50 g 4,20 € / kg</span>
+								</div>
+								<div class=prezzi1>
+									<span><strong>€2,00<br>al kg</strong></span>
+									<button id="aggiungere" class="costo">Aggiungi al carrello</button>
+								</div>
+							</div>
+						</div>
+						<div class="pizza">
+							<img class="margherita" src="pastapizza.jpg">
+							<div class="alimentari">
+								<div class="prezzi">
+									<h4>Pasta Pizza</h4>
+									<span>1KG 3,50 € / kg</span>
+								</div>
+								<div class=prezzi1>
+									<span><strong>€3,50<br>al kg</strong></span>
+									<button id="aggiungere" class="costo">Aggiungi al carrello</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="destraProdotti">
+						<div class="sottotitoli">Categoria</div>
+						<div>
+							<button><a href="">PANETTERIA FRESCA</a></button>
+							<button><a href="">PIZZE</a></button>
+							<button><a href="">SNACK SALATI</a></button>
+							<button><a href="">PIATTI E SERVZI</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="scelte">
+			<div class="time" onclick="aprifascedisponibili()">
+				<img class="icontimeslot" src="image2.jpg">
+				<p><strong>Fasce Disponibili</strong></p>
+			</div>
+			<div class="preferenze nascondere" id="preferenze">
+				<div class="sfondo" onclick="chiudifascedisponibili()">
+				</div>
+				<div class="orari">
+					<div class="fascedisponibili">
+						<div>
+							<img class="iconaorologio" src="iconaorologio.jpg">
+							<span>Fascia Oraria</span>
+						</div>
+						<img class="x" src="iconx.jpg" onclick="chiudifascedisponibili()">
+					</div>
+					<div class="fascedisponibili2">
+						<img class="bennetdrive" src="bennetdrive.jpg">
+						<span>Orari disponibili per il punto vendita</span>
+						<span><strong>Montano Lucino (CO)</strong></span>
+					</div>
+					<div class="fascedisponibili3" id="data">
+						<div class="data">
+							<span>lun 13 dicembre</span>
+							<div onclick="avantifascedisponibili()">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-chevron-right" viewBox="0 0 16 16">
+									<path fill-rule="evenodd"
+										d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+								</svg>
+							</div>
+						</div>
+						<div class="mattina1">
+							<span>Mattina</span>
+						</div>
+						<div class="mattina">
+							<span>07:30-07:59</span>
+							<span>08:00-08:29</span>
+							<span>08:30-08:59</span>
+							<span>09:00-09:29</span>
+							<span>09:30-09:59</span>
+							<span>10:00-10:29</span>
+							<span>10:30-10:59</span>
+							<span>11:00-11:29</span>
+							<span>11:30-11:59</span>
+							<span>12:00-12:29</span>
+							<span>12:30-12:59</span>
+						</div>
+						<div class="pomeriggio1">
+							<span>Pomeriggio</span>
+						</div>
+						<div class="pomeriggio">
+							<span>13:00-13:29</span>
+							<span>13:30-13:59</span>
+							<span>14:00 -14:29</span>
+							<span>14:30-14:59</span>
+							<span>15:00-15:29</span>
+							<span>15:30-15:59</span>
+							<span>16:00-16:29</span>
+							<span>16:30-16:59</span>
+							<span>17:00-17:29</span>
+							<span>17:30-17:59</span>
+							<span>18:00-18:29</span>
+							<span>18:30-18:59</span>
+							<span>19:00-19:29</span>
+							<span>19:30-19:59</span>
+							<span>20:00-20:29</span>
+							<span>20:30-20:59</span>
+							<span>21:00-21:29</span>
+							<span>21:30-21:59</span>
+						</div>
+					</div>
+					<div class="fascedisponibili4 nascondere" id="data1">
+						<div class="data">
+							<span>mar 14 dicembre</span>
+							<div onclick=" dietrofascedisponibili()">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-chevron-left" viewBox="0 0 16 16">
+									<path fill-rule="evenodd"
+										d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+								</svg>
+							</div>
+						</div>
+						<div class="mattina1">
+							<span>Mattina</span>
+						</div>
+						<div class="mattina">
+							<span>07:30-07:59</span>
+							<span>08:00-08:29</span>
+							<span>08:30-08:59</span>
+							<span>09:00-09:29</span>
+							<span>09:30-09:59</span>
+							<span>10:00-10:29</span>
+							<span>10:30-10:59</span>
+							<span>11:00-11:29</span>
+							<span>11:30-11:59</span>
+							<span>12:00-12:29</span>
+							<span>12:30-12:59</span>
+						</div>
+						<div class="pomeriggio1">
+							<span>Pomeriggio</span>
+						</div>
+						<div class="pomeriggio">
+							<span>13:00-13:29</span>
+							<span>13:30-13:59</span>
+							<span>14:00 -14:29</span>
+							<span>14:30-14:59</span>
+							<span>15:00-15:29</span>
+							<span>15:30-15:59</span>
+							<span>16:00-16:29</span>
+							<span>16:30-16:59</span>
+							<span>17:00-17:29</span>
+							<span>17:30-17:59</span>
+							<span>18:00-18:29</span>
+							<span>18:30-18:59</span>
+							<span>19:00-19:29</span>
+							<span>19:30-19:59</span>
+							<span>20:00-20:29</span>
+							<span>20:30-20:59</span>
+							<span>21:00-21:29</span>
+							<span>21:30-21:59</span>
+						</div>
+					</div>
+					<div class="legenda">
+						<div class="disponibile">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+								class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="11" cy="7" r="5" />
+							</svg><span>Disponibile</span>
+						</div>
+						<div class="quasiesaurita">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+								class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="11" cy="7" r="5" />
+							</svg><span>Quasi esaurita</span>
+						</div>
+						<div class="nondisponibile">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+								class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="11" cy="7" r="5" />
+							</svg><span>Non disponibile</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list" onclick="aprilistapreferiti()">
+				<img class="iconlistslot" src="image5.png">
+				<p><strong>Lista dei Preferiti</strong></p>
+			</div>
+			<div class="listapreferiti nascondere" id="listapreferiti">
+				<div class="sfondo" onclick="chiudilistapreferiti()">
+				</div>
+				<div class="boxbennet">
+					<div class="end">
+						<img class="x close" src="iconx.jpg" onclick="chiudilistapreferiti()">
+					</div>
+					<img class="imgbennet" src="boxbennet.jpg">
+					<div class="credenziali">
+						<div class="registrazione">
+							<div class="entra">
+								<p>Accedi</p>
+								<p>Utente già registrato?</p>
+							</div>
+							<div class="provaregistrarti">
+								<a href="">
+									<p>Registrati</p>
+									<p>Nuovo Utente?</p>
+								</a>
+							</div>
+						</div>
+						<div class="datipersonali">
+							<div class="email">
+								<input class="scriveredentro" type="text" placeholder="email" id="inserisci">
+								<div class="errorMessage nascondere" id="messaggioerrato">
+									<span>campo obbligatorio</span>
+								</div>
+							</div>
+							<div class="passworddimenticata">
+								<div>
+									<a href="">Password dimenticata?</a>
+								</div>
+							</div>
+							<div class="Password">
+								<input class="scriveredentro" type="text" placeholder="password" id="digita">
+								<div class="errorMessage nascondere" id="erroremessaggio">
+									<span>campo obbligatorio</span>
+								</div>
+							</div>
+							<div class="annulla">
+								<span>Annulla</span>
+								<button onclick="entranelbennetclub()">Entra nel bennet club</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carrell">
+				<img class="iconcarrell" src="image6.png">
+				<p><strong>Carrello</strong></p>
+			</div>
+		</div>
+	</div>
+	<h1><strong>SCOPRI BENNETDRIVE: FAI LA SPESA ONLINE E RITIRA GRATIS IN PUNTO VENDITA, SELEZIONANDO L'ORARIO PER TE
+			PIÙ COMODO.</strong></h1>
+	<div class="container6">
+		<div class="container4">
+			<div class="presentazione">
+				<a class="home" href="https://www.bennet.com/">Home</a>
+				<span class="mobile hide">/</span>
+				<a href=""><span class="az">Azienda</span></a>
+				<span class="mobile hide">/</span>
+				<span><strong>Lavora con noi</strong></span>
+			</div>
+		</div>
+		<div class="lavoraconnoi">
+			<h2>Lavora con noi</h2>
+			<span>​​​​​​​TI PIACEREBBE INSERIRTI PROFESSIONALMENTE NEL MONDO BENNET? In questa pagina trovare quello che
+				fa per te è facilissimo.</span>
+		</div>
+		<div class="marketing">
+			<img class="gastronomia" src="gastronomia.jpg">
+		</div>
+		<div class="opportunità">
+			<h2>Opportunità di lavoro</h2>
+		</div>
+		<div class="container5">
+			<div class="fcontainer5">
+				<div class="farmacista">
+					<a href="https://www.bennet.com/workwithus/joboffer/00000063"><span><strong>Farmacista ipermercato di MONTANO LUCINO</strong></span>
+						<br>
+						<span class="spazio">Ipermercato Montano Lucino</span>
+						<br>
+						<span>Como</span>
+					</a>
+				</div>
+				<div class="farmacista">
+					<a href="https://www.bennet.com/workwithus/joboffer/00000061"><span><strong>PERITO INDUSTRIALE
+								JUNIOR CONTROLLO IMPIANTI</strong></span>
+						<br>
+						<span class="spazio">Sede Centrale</span>
+						<br>
+						<span>Como</span>
+					</a>
+				</div>
+				<div class="farmacista">
+					<a href="https://www.bennet.com/workwithus/joboffer/00000061"><span><strong>JUNIOR BUSINESS
+								INTELLIGENCE
+								ANALIST</strong></span>
+						<br>
+						<span class="spazio">Sede Centrale</span>
+						<br>
+						<span>Como</span>
+					</a>
+				</div>
+				<div class="tutteleofferte">
+					<a href="https://www.bennet.com/workwithus">Vedi tutte le offerte</a>
+				</div>
+			</div>
+		</div>
+		<div class="linkedin">
+			<img class="immaginelinkedin" src="linkedin.jpg">
+			<a href="https://it.linkedin.com/company/bennet-s.p.a."><button class="collegatilinkedin"><span>Collegati a
+						linkedin</span></button></a>
+		</div>
+		<div class="container7">
+			<div class="candidaturaspontanea">
+				<h2>Candidatura spontanea</h2>
+				<p>Da BENNET la professionalità e la competenza sono fondamentali in tutti i reparti e in tutte le
+					mansioni.<br>
+					A chi lavora con noi diamo grandi spazi per svilupparle: una ragione in più per condividere il
+					nostro successo.<br>
+					Se sei interessato ad inserirti professionalmente nel mondo Bennet puoi presentare qui la tua
+					candidatura e inviarci il tuo curriculum vitae.
+				</p>
+				<div class="candidati">
+					<a href="https://www.bennet.com/workwithus/landing">Candidati</a>
+				</div>
+			</div>
+			<div class="donna">
+				<img class="donnasupermercato" src="donnamarket.jpg">
+			</div>
+		</div>
+		<div class="container8">
+			<div class="curriculum">
+				<span class="cv1">Curriculum</span>
+				<div class="scriverecv">
+					<span>Cosa fare per scrivere un buon CV</span>
+					<span id="arrow1"onclick="apricurriculum()"><i class="arrow1"></i></span>
+					<span id="arrow3" class="nascondere" onclick="chiudicurriculum()"><i class="arrow3"></i></span>
+				</div>
+				<div class="spiegazione nascondere " id="spiegazione" >
+					<p>Per <a href="https://bennet-cdn.thron.com/static/RR6LZN_curriculum_VRDKBV.pdf?xseo=&response-content-disposition=inline%3Bfilename%3D%22curriculum.pdf%22"><span><strong>scrivereun buon CV</strong></span></a>, sii sintetico e sincero, fai una cernita delle
+						informazioni che potrebbero interessare al tuo interlocutore.
+						Mantienilo aggiornato e seleziona con cura la tua immagine, in modo che risulti professionale.
+						Ti consigliamo di esportarlo in formati compatibili con i principali programmi (Word e PDF) e di
+						associare un account LinkedIn per essere subito reperibile anche online.</p>
+				</div>
+			</div>
+			<div class="curriculum">
+				<span class="cv1">Linkedin</span>
+				<div class="scriverecv">
+					<span>Come trovare lavoro con Linkedin</span>
+					<span id="arrow5"onclick="aprilinkedin()"><i class="arrow1"></i></span>
+					<span id="arrow4" class="nascondere" onclick="chiudilinkedin()"><i class="arrow3"></i></span>
+				</div>
+				<div class="spiegazione nascondere" id="profilo">
+					<p>Crea un profilo personale che incuriosisca i tuoi potenziali recruiter: ricorda,<a
+							href="https://bennet-cdn.thron.com/static/IXK5EG_LinkedIn_B_LTC3HS.pdf?xseo=&response-content-disposition=inline%3Bfilename%3D%22LINKEDIN.pdf%22"><span><strong>Linkedin</strong></span></a>
+						non è solo il tuo curriculum vitae, è la presentazione del tuo personal brand.<br>
+
+						Cura l’immagine di profilo e di copertina, inserisci le tue esperienze lavorative più importanti
+						e descrivi la tua esperienza utilizzando parole chiave mirate che
+						facciano emergere la tua personalità, professionalità e le tue competenze.<br>
+
+						Sfrutta il motore di ricerca lavoro nel tuo profilo personale per monitorare le offerte
+						compatibili con te e salva quelle più interessanti per poterti candidare.<br></p>
+				</div>
+			</div>
+			<div class="curriculum">
+				<span class="cv1">Recruiting</span>
+				<div class="scriverecv">
+					<span>Parole chiave per il recruiting</span>
+					<span id="arrow6"onclick="aprirecruiting()"><i class="arrow1"></i></span>
+					<span id="arrow7" class="nascondere" onclick="chiudirecruiting()"><i class="arrow3"></i></span>
+				</div>
+				<div class="spiegazione nascondere" id="recruiting">
+					<p></p>Seleziona parole inerenti all’ambito che ti interessa: cerca di descrivere il tuo profilo,
+					distinguendo <a
+						href="https://bennet-cdn.thron.com/static/Q8LLGZ_ParoleChiave_B_CZ1NSZ.pdf?xseo=&response-content-disposition=inline%3Bfilename%3D%22RECRUITING.pdf%22"><span><strong>le
+								tue
+								esperienze e i tuoi studi (hard skills) dalle tue caratteristiche e qualità (soft
+								skills)</span></strong></a>.Utilizza sempre un linguaggio professionale e anche tecnico,
+					laddove ce ne fosse la necessità. Sii sintetico e coinciso,
+					ricordandoti sempre che ogni riga di testo serve a rendere il tuo profilo accattivante.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="basso">
+		<div class="fine">
+			<div class="finale">
+				<a class="plus"><strong class="minnie">MAGAZINE</strong><strong class="piu mostrare">+</strong><strong class="meno">-</strong></a>
+				<div class="miky magazine">	
+					<a class="" href="https://www.bennet.com/Per_te">Per te</a>
+					<a class="" href="https://www.bennet.com/in_cucina">In cucina</a>
+					<a class="" href="https://www.bennet.com/in_coppia">In coppia</a>
+					<a class="" href="https://www.bennet.com/all_aria_aperta">All'aria aperta</a>
+					<a class="" href="https://www.bennet.com/con_gli_amici">Con gli amici</a>
+					<a class="" href="https://www.bennet.com/in_famiglia">In famiglia</a>
+				</div>
+			</div>
+			<div class="finale">
+				<a class="plus"><strong class="minnie">BENNET CLUB</strong><strong class="piu mostrare">+</strong><strong class="meno">-</strong></a>
+				<div class="miky magazine">
+					<a class="" href="https://www.bennet.com/123sconto">1,2,3...SCONTO</a>
+					<a class="" href="https://www.bennet.com/raccoltaPunti">Cataloghi Premi</a>
+					<a class="" href="https://www.bennet.com/raccoltaPunti/premi">Ricerca Premio</a>
+					<a class="" href="https://bennet-cdn.thron.com/shared/plugins/embed/current/bennet/5dad3181-fd0e-4f1e-b433-968cd012d4e8/sgbrwv">Regolamento</a>
+					<a class="" href=""> </a>
+					<a class="" href=""> </a>
+				</div>
+			</div>
+			<div class="finale">
+				<a class="plus"><strong class="minnie">LINK UTILI</strong><strong class="piu mostrare">+</strong><strong class="meno">-</strong></a>
+				<div class="miky magazine">
+					<a class="" href="https://www.bennet.com/promotions">Promozioni</a>
+					<a class="" href="https://www.bennet.com/privacy">Privacy</a>
+					<a class="" href="https://www.bennet.com/cookie-policy">Politica sui cookie</a>
+					<a class="" href="https://www.bennet.com/company/productrecallnotice">Richiamo proddotti</a>
+					<a class="" href="https://www.bennet.com/Condizioni-di-vendita">Condizioni di vendita</a>
+					<a class="" href="https://www.galleriecommercialibennet.com/">Gallerie Commerciali</a>
+				</div>
+			</div>
+			<div class="finale">
+				<a class="plus"><strong class="minnie">SERVIZI BENNET</strong><strong class="piu mostrare">+</strong><strong class="meno">-</strong></a>
+				<div class="miky magazine">
+					<a class="" href="https://www.bennet.com/Servizio_Bennet_Drive">Bennet Drive</a>
+					<a class="" href="https://www.bennet.com/Bennet_a_casa">Bennet a casa</a>
+					<a class="" href="https://www.bennet.com/Prenotazione_Libri_Online">Prenotazioni libri scolastici</a>
+					<a class="" href="https://www.bennet.com/Amazon_Locker">Amazon Locker</a>
+					<a class="" href="https://www.bennet.com/Stampa_Foto">Sviluppo e stampa foto</a>
+					<a class="" href="https://www.bennet.com/Carte_Regalo">Carte regalo</a>
+				</div>
+			</div>
+			<div class="finale">
+				<a class="plus"><strong class="minnie">L'AZIENDA</strong><strong class="piu mostrare">+</strong><strong class="meno">-</strong></a>
+				<div class="miky magazine">
+					<a class="" href="https://www.bennet.com/companyabout">Chi siamo</a>
+					<a class="" href="https://www.bennet.com/workwithus/landing">Lavora con noi</a>
+					<a class="" href="https://www.bennet.com/initiatives">Sostenibiltà</a>
+					<a class="" href="https://www.bennet.com/bennetproduct">Prodotti Bennet</a>
+					<a class="" href="https://www.bennet.com/company/pressarea">Area Stampa</a>
+					<a class="" href="https://www.bennet.com/company#contatti">Contatti</a>
+				</div>
+			</div>
+		</div>
+		<div class="finale1">
+			<div class="logobennet">
+				<img class="logo" src="bennet-logo.png">
+			</div>
+			<div class="pippo">
+				<span><strong>Bennet</strong></span>
+				<p>Seguici sui nostri canali</p>
+			</div>
+			<div class="social">
+				<a href="https://www.instagram.com/bennet.unaspesadavivere/"><img src="insta.jpg"></a>
+				<a href="https://www.facebook.com/Bennet.UnaSpesaDaVivere/"><img src="facebook.jpg"></a>
+				<a href="https://it.linkedin.com/company/bennet-s.p.a."><img src="in.jpg"></a>
+				<a href="https://twitter.com/bennet_official"><img src="twitter.jpg"></a>
+				<a href="https://www.youtube.com/channel/UCw3GbUuV-xwpYpnxi36l1Lg"><img src="youtube.jpg"></a>
+			</div>
+		</div>
+	</div>
+	<div class="ultimo">
+		<div>
+			<a href="https://www.bennet.com/"><img src="bennet-logo.png"></a>
+		</div>
+		<div class="ultimo1">
+			<p class="spa"><strong>BENNET S.p.A.</strong></p>
+			<p>Sede Amministrativa: 22070 Montano Lucino (CO) via Enzo Ratti nr. 2<br>
+				Registro delle imprese di Milano e C.F./P.IVA 07071700152 - R.E.A. di Milano 1137002 -
+				Capitale Sociale € 12.310.020,00 i.v., Socio unico - Bennet.com v2.0 - © 1999/2021</p>
+		</div>
+	</div>
+	<script src="sitobennet.js"></script>
+</body>
+
+</html>
